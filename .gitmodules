@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:crc32/crc32.github.io.git
 	branch = master
+[submodule "themes/researcher"]
+	path = themes/researcher
+	url = https://github.com/ojroques/hugo-researcher.git

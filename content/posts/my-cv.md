@@ -1,6 +1,6 @@
 ---
 title: "Colin Crossman's CV"
-date: 2020-12-04T11:34:14-05:00
+date: 2021-10-06T11:34:14-05:00
 draft: false
 ---
 
@@ -15,7 +15,7 @@ draft: false
 - Raised $3.5M in private equity, $11M in private loan funds, and $2.5M in public loans for the Mayton Inn.
 - Developed and submitted the site plan, minor special use permit, development review board, and variance applications for the Inn.
 - Negotiated construction and development contracts with a variety of trades and vendors.
-- Financed, built, and opened The King's Daughters Inn during the market downturn of 2008-2009.
+- Financed, built, and opened The King’s Daughters Inn during the market downturn of 2008-2009.
 - Managed outside counsel in the successful syndication of federal and state historic tax credits during the market crash of 2008.
 - Oversee all aspects of IT, bookkeeping, reservations, and guest relations.
 - Develop in-house tools to assist in the automation and execution of work tasks by others.
@@ -24,7 +24,7 @@ draft: false
 - Constructed internal business intelligence analytical tools and data visualizations using Python, SQL & Flask.
 - Successfully guided the development or acquisition, and the subsequent operation, of three hotels, and a total of 135 employees.
 - Build and maintain the data infrastructure for the business, including cloud services such as AWS, DigitalOcean, and Azure.
-- Hiring, training, and managing 125 employees.
+
 
 #### PhD Posters, LLC
 **Member and General Counsel** | **Durham, NC** | **November 2005 - Present**
@@ -33,6 +33,16 @@ draft: false
 - Manage all in-house legal work, including trademark acquisition, drafting of licensing agreements, and devising the route for expanding the business model.
 - Oversee the adoption of new licensees, from initial contact to execution of the license agreement.
 - Help grow the company, which has expanded from a singe site to the current eight locations.
+
+#### Foundation for Individual Rights in Education (FIRE)
+**Senior Program Officer** | **Philadelphia, PA** | **May 2015 - January 2016**
+**IT Consultant** | **Philadelphia, PA** | **July 2020 - Present**
+- Researched university speech codes, classifying them with respect to constitutionality.
+- Communicate with university staff to discuss and educate regarding the constitutionality of speech codes.
+- Provided ad-hoc assistance with technical matters (IT support, website support, etc.).
+- Using Python, developed and deployed a tool to more efficiently track which universities needed to be updated, and which staffer had most recently made updates.
+- Design, build, and deploy new internal phone system based on 3CX.
+- Manage the transition from Lastpass to Okta for internal security controls.
 
 #### Triangle Apartment Association
 **Government Affairs Director** | **Raleigh, NC** | **January 2008 - March 2009**
@@ -84,6 +94,3 @@ doi: 10.1016/j.ygeno.2010.03.003
 4. Reichman J.H, Rai, A, Uhlir P, and **Crossman C.**; Pathways across the Valley of Death: Novel intellectual property strategies for accelerated drug discovery. 2008 Yale Journal of Health Policy, Law, and Ethics, Vol 8(1).
 5. **Colin Crossman** & Arti Rai, A Brief History of BioPerl (December 2, 2005). Available at: https://scholarship.law.duke.edu/faculty_scholarship/3686
 6. Webbink, **Crossman**, Griffin, and Silverstein; Red Hat's Comments to the Joint FTC/DOJ hearing on Competition and Intellectual Property Law, March 20, 2002. http://www.ftc.gov/opp/intellect/020320webbink.pdf (alternate link: [https://crc32.com/020320webbink.pdf](/020320webbink.pdf))
-
-
-

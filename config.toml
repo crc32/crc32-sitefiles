@@ -1,6 +1,6 @@
 baseURL = "https://crc32.com/"
 languageCode = "en-us"
-title = "Colin Crossman's CV"
+title = "Colin Crossman"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
@@ -8,7 +8,7 @@ math = false          # enable KaTeX (https://katex.org/) globally
 
 [params]
   author = "Colin Crossman"
-  description = "A simple CV with formatting."
+  description = "Colin Crossman / Arceris"
   #favicon = "favicon.ico"  # path to a .ico to use as favicon
   [params.footer]
     text = "By Colin Crossman"

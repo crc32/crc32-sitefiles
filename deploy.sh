@@ -12,8 +12,9 @@ mkdir public
 # Build the project.
 hugo -t researcher # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-cp -R ./public/ /Users/crc32/Projects/crc32.github.io/
-cd /Users/crc32/Projects/crc32.github.io/
+cp -R /Users/crc32/Projects/crc32-sitefiles/public/ /Users/crc32/Projects/crc32.github.io/
+
+mv /Users/crc32/Projects/crc32.github.io/Crossman-CV.pdf /Users/crc32/Projects/crc32.github.io/crossman-cv.pdf
 
 # Add changes to git.
 git add .

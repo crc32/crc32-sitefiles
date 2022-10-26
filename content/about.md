@@ -90,13 +90,13 @@ draft: false
 
 
 ## Publications
-1. Robert Warren and **Colin Crossman**; Beyond the kWh: Factors That Bitcoin Miners Need To Consider. Bitcoin Magazine (2022). Available at: https://bitcoinmagazine.com/markets/factors-bitcoin-miners-need-to-consider
-2. **Colin Crossman**; West Virginia Vs. EPA: Good News For Bitcoin, Beyond The Obvious. Bitcoin Magazine (2022-07-01). Available at: https://bitcoinmagazine.com/legal/west-virginia-epa-supreme-court-bitcoin
-3. **Colin Crossman**; What Bitcoiners Need to Know About Jury Nullification in a Hostile Legal System. Bitcoin Magazine (2022-04-03). Available at: https://bitcoinmagazine.com/culture/future-jury-nullification-for-bitcoin-users
-4. **Colin Crossman**; Economically Incentivized Innovation Sets Bitcoin Apart: Unitary Money. Bitcoin Magazine (2022-03-31). Available at: https://bitcoinmagazine.com/business/innovation-sets-bitcoin-apart
-5. **Colin Crossman**, Mark Maraia, and Heidi Porter; Bitcoin For Small Businesses: Front Line Options. Bitcoin Magazine (2022-03-16). Available at: https://bitcoinmagazine.com/business/bitcoin-for-small-businesses-options
-6. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and the Smallest Businesses: Cantillon Effects and Why They Need Bitcoin. Bitcoin Magazine (2022-01-29). Available at: https://bitcoinmagazine.com/business/why-small-businesses-need-bitcoin
-7. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and Business: What is your Bitcoin strategy? Bitcoin Magazine (2022-01-10). Available at: https://bitcoinmagazine.com/business/bitcoin-and-businesses-a-bitcoin-strategy
+1. Robert Warren and **Colin Crossman**; Beyond the kWh: Factors That Bitcoin Miners Need To Consider. BitcoinMagazine.com (2022-07-14). Available at: https://bitcoinmagazine.com/markets/factors-bitcoin-miners-need-to-consider
+2. **Colin Crossman**; West Virginia Vs. EPA: Good News For Bitcoin, Beyond The Obvious. BitcoinMagazine.com  (2022-07-01). Available at: https://bitcoinmagazine.com/legal/west-virginia-epa-supreme-court-bitcoin
+3. **Colin Crossman**; What Bitcoiners Need to Know About Jury Nullification in a Hostile Legal System. BitcoinMagazine.com  (2022-04-03). Available at: https://bitcoinmagazine.com/culture/future-jury-nullification-for-bitcoin-users
+4. **Colin Crossman**; Economically Incentivized Innovation Sets Bitcoin Apart: Unitary Money. BitcoinMagazine.com  (2022-03-31). Available at: https://bitcoinmagazine.com/business/innovation-sets-bitcoin-apart
+5. **Colin Crossman**, Mark Maraia, and Heidi Porter; Bitcoin For Small Businesses: Front Line Options. BitcoinMagazine.com  (2022-03-16). Available at: https://bitcoinmagazine.com/business/bitcoin-for-small-businesses-options
+6. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and the Smallest Businesses: Cantillon Effects and Why They Need Bitcoin. BitcoinMagazine.com  (2022-01-29). Available at: https://bitcoinmagazine.com/business/why-small-businesses-need-bitcoin
+7. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and Business: What is your Bitcoin strategy? BitcoinMagazine.com  (2022-01-10). Available at: https://bitcoinmagazine.com/business/bitcoin-and-businesses-a-bitcoin-strategy
 8. U.S. Patent No. 9,364,012 (issued Jun. 14, 2016). (**Colin R. Crossman**, attorney of record)
 9. Kepler, T.; **Crossman, C.**; Cook-Deegan, R.; Metastasizing patent claims on BRCA1. Genomics (2010)
 doi: 10.1016/j.ygeno.2010.03.003

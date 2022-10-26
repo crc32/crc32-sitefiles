@@ -41,7 +41,7 @@ draft: false
 - Help grow the company, which has expanded from a singe site to the current eight locations.
 
 #### Foundation for Individual Rights in Education (FIRE)
-**Senior Program Officer** | **Philadelphia, PA** | **May 2015 - January 2016**
+**Senior Program Officer** | **Philadelphia, PA** | **May 2015 - January 2016**  
 **IT Consultant** | **Philadelphia, PA** | **July 2020 - Present**
 - Researched university speech codes, classifying them with respect to constitutionality.
 - Communicate with university staff to discuss and educate regarding the constitutionality of speech codes.

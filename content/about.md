@@ -1,6 +1,6 @@
 ---
 title: "Colin Crossman's CV"
-date: 2022-10-26T11:34:14-05:00
+date: 2023-06-21T11:34:14-05:00
 draft: false
 ---
 
@@ -8,15 +8,23 @@ draft: false
 
 ## Experience
 
+#### Secretary of State's Office, State of Wyoming
+**Director of the Business Division** | **Wyoming** | **April 2023 - Present**
+- Manage Business Filing Division, covering LLCs, Corporations, Partnerships, Trusts, &c.
+- Address complex filing issues arising during the operation of the Office.
+- Provide advice and background on statutory and rule changes affecting the Business Division.
+- Supervise Business Division staff.
+- Provide testimony to the Wyoming Legislature on the operation of the Business Division, and coordinate the interaction of the Division with Legislators, other Executive agencies, and the public.
+
 #### Distributed Hash
-**Principal** | **Wyoming** | **January 2022 - Present**
+**Member** | **Wyoming** | **January 2022 - Present**
 - Design and build out of Bitcoin ASIC hosting facility
 - Construct custom measurement and reporting software
 - Generate and publish public reports & insights
 - Regulatory outreach with municipal and county governments in Wyoming and Colorado
 
 #### Rhea Hospitality
-**Principal and Manager** | **Cary, NC & Las Vegas, NV** | **November 2007 - Present**
+**Principal and Manager** | **Cary, NC & Las Vegas, NV** | **November 2007 - April 2023**
 - Raised $5.5M for acquisition and renovation of The Retreat on Charleston Peak, a hotel outside of Las Vegas.
 - Lobbied for and negotiated a public-private partnership between Memento Mori, LLC and the Town of Cary, NC, for the construction of the Mayton Inn, a $14.5M, 45-room boutique hotel, with ~$4M in incentives and Town-backed loans.
 - Raised $3.5M in private equity, $11M in private loan funds, and $2.5M in public loans for the Mayton Inn.
@@ -33,7 +41,7 @@ draft: false
 - Build and maintain the data infrastructure for the business, including cloud services such as AWS, DigitalOcean, and Azure.
 
 #### PhD Posters, LLC
-**Member and General Counsel** | **Durham, NC** | **November 2005 - Present**
+**Member and General Counsel** | **Durham, NC** | **November 2005 - April 2023**
 - Address complex laws, rules and regulations related to an online business with physical locations in multiple jurisdictions.
 - Work with overseas counsel to establish Canadian subsidiary for international expansion.
 - Manage all in-house legal work, including trademark acquisition, drafting of licensing agreements, and devising the route for expanding the business model.

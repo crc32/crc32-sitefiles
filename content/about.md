@@ -92,6 +92,7 @@ draft: false
 
 
 ## Professional Licenses
+- Wyoming Licensed Attorney, **#8-7039**
 - North Carolina Licensed Attorney, **#31468**
 - Licensed before the United States Patent and Trademark Office, **#52782**
 - North Carolina Real Estate Commission, **#250323** (INACTIVE)

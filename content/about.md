@@ -1,6 +1,6 @@
 ---
 title: "Colin Crossman's CV"
-date: 2023-06-21T11:34:14-05:00
+date: 2024-06-05T11:34:14-05:00
 draft: false
 ---
 
@@ -99,17 +99,24 @@ draft: false
 
 
 ## Publications
-1. Robert Warren and **Colin Crossman**; Beyond the kWh: Factors That Bitcoin Miners Need To Consider. BitcoinMagazine.com (2022-07-14). Available at: https://bitcoinmagazine.com/markets/factors-bitcoin-miners-need-to-consider
-2. **Colin Crossman**; West Virginia Vs. EPA: Good News For Bitcoin, Beyond The Obvious. BitcoinMagazine.com  (2022-07-01). Available at: https://bitcoinmagazine.com/legal/west-virginia-epa-supreme-court-bitcoin
-3. **Colin Crossman**; What Bitcoiners Need to Know About Jury Nullification in a Hostile Legal System. BitcoinMagazine.com  (2022-04-03). Available at: https://bitcoinmagazine.com/culture/future-jury-nullification-for-bitcoin-users
-4. **Colin Crossman**; Economically Incentivized Innovation Sets Bitcoin Apart: Unitary Money. BitcoinMagazine.com  (2022-03-31). Available at: https://bitcoinmagazine.com/business/innovation-sets-bitcoin-apart
-5. **Colin Crossman**, Mark Maraia, and Heidi Porter; Bitcoin For Small Businesses: Front Line Options. BitcoinMagazine.com  (2022-03-16). Available at: https://bitcoinmagazine.com/business/bitcoin-for-small-businesses-options
-6. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and the Smallest Businesses: Cantillon Effects and Why They Need Bitcoin. BitcoinMagazine.com  (2022-01-29). Available at: https://bitcoinmagazine.com/business/why-small-businesses-need-bitcoin
-7. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and Business: What is your Bitcoin strategy? BitcoinMagazine.com  (2022-01-10). Available at: https://bitcoinmagazine.com/business/bitcoin-and-businesses-a-bitcoin-strategy
-8. U.S. Patent No. 9,364,012 (issued Jun. 14, 2016). (**Colin R. Crossman**, attorney of record)
-9. Kepler, T.; **Crossman, C.**; Cook-Deegan, R.; Metastasizing patent claims on BRCA1. Genomics (2010)
+1. **Colin Crossman**; NRA & Cantero in the Supreme Court: Implications For Operation Choke Point 2.0 And Custodia Bank. BitcoinMagazine.com (2024-05-31). Available at: https://bitcoinmagazine.com/legal/nra-cantero-cases-implications-for-operation-choke-point-2-0-and-custodia-bank
+2. **Colin Crossman**; Final Agreement on EIA Emergency Survey Released. BitcoinMagazine.com (2024-03-01). Available at: https://bitcoinmagazine.com/legal/final-agreement-on-eia-emergency-survey-released
+3. **Colin Crossman**; EIA Emergency Survey Preliminary Injunction Hearing Canceled Yesterday. BitcoinMagazine.com (2024-02-29). Available at: https://bitcoinmagazine.com/legal/eia-emergency-survey-preliminary-injuction-hearing-canceled-yesterday
+4. **Colin Crossman**; Riot Platforms And Texas Bitcoin Council Seek Injunction Against Survey. BitcoinMagazine.com (2024-02-23). Available at: https://bitcoinmagazine.com/legal/miners-vs-the-eia-hearing-in-waco-texas
+5. **Colin Crossman**; Resisting The EIA: One Possible Playbook. BitcoinMagazine.com (2024-02-13). Available at: https://bitcoinmagazine.com/legal/resisting-the-eia-one-possible-playbook
+6. **Colin Crossman**; High Fees VS. "High Fees": How I Learned To Stop Worrying And Love The Mempool. BitcoinMagazine.com (2024-01-05). Available at: https://bitcoinmagazine.com/markets/high-fees-vs-high-fees-how-i-learned-to-stop-worrying-and-love-the-mempool
+7. Robert Warren and **Colin Crossman**; Beyond the kWh: Factors That Bitcoin Miners Need To Consider. BitcoinMagazine.com (2022-07-14). Available at: https://bitcoinmagazine.com/markets/factors-bitcoin-miners-need-to-consider
+8. **Colin Crossman**; West Virginia Vs. EPA: Good News For Bitcoin, Beyond The Obvious. BitcoinMagazine.com  (2022-07-01). Available at: https://bitcoinmagazine.com/legal/west-virginia-epa-supreme-court-bitcoin
+9. **Colin Crossman**; What Bitcoiners Need to Know About Jury Nullification in a Hostile Legal System. BitcoinMagazine.com  (2022-04-03). Available at: https://bitcoinmagazine.com/culture/future-jury-nullification-for-bitcoin-users
+10. **Colin Crossman**; Economically Incentivized Innovation Sets Bitcoin Apart: Unitary Money. BitcoinMagazine.com  (2022-03-31). Available at: https://bitcoinmagazine.com/business/innovation-sets-bitcoin-apart
+11. **Colin Crossman**, Mark Maraia, and Heidi Porter; Bitcoin For Small Businesses: Front Line Options. BitcoinMagazine.com  (2022-03-16). Available at: https://bitcoinmagazine.com/business/bitcoin-for-small-businesses-options
+12. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and the Smallest Businesses: Cantillon Effects and Why They Need Bitcoin. BitcoinMagazine.com  (2022-01-29). Available at: https://bitcoinmagazine.com/business/why-small-businesses-need-bitcoin
+13. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and Business: What is your Bitcoin strategy? BitcoinMagazine.com  (2022-01-10). Available at: https://bitcoinmagazine.com/business/bitcoin-and-businesses-a-bitcoin-strategy
+14. Rick Poach and **Colin Crossman**; Bitcoin Community Projects Communicate the Message of Freedom. BitcoinMagazine.com  (2021-10-31). Available at: https://bitcoinmagazine.com/culture/bitcoin-community-projects-freedom
+15. U.S. Patent No. 9,364,012 (issued Jun. 14, 2016). (**Colin R. Crossman**, attorney of record)
+16. Kepler, T.; **Crossman, C.**; Cook-Deegan, R.; Metastasizing patent claims on BRCA1. Genomics (2010)
 doi: 10.1016/j.ygeno.2010.03.003
-10. **Crossman, C.**; Arming our Enemies: How parallel imports could increase Anti-microbial resistance. 2006 North Carolina Journal of International Law & Commercial Regulation. Vol 31(4): 823-845.
-11. Reichman J.H, Rai, A, Uhlir P, and **Crossman C.**; Pathways across the Valley of Death: Novel intellectual property strategies for accelerated drug discovery. 2008 Yale Journal of Health Policy, Law, and Ethics, Vol 8(1).
-12. **Colin Crossman** & Arti Rai, A Brief History of BioPerl (December 2, 2005). Available at: https://scholarship.law.duke.edu/faculty_scholarship/3686
-13. Webbink, **Crossman**, Griffin, and Silverstein; Red Hat's Comments to the Joint FTC/DOJ hearing on Competition and Intellectual Property Law, March 20, 2002. http://www.ftc.gov/opp/intellect/020320webbink.pdf (alternate link: [https://crc32.com/020320webbink.pdf](/020320webbink.pdf))
+17. **Crossman, C.**; Arming our Enemies: How parallel imports could increase Anti-microbial resistance. 2006 North Carolina Journal of International Law & Commercial Regulation. Vol 31(4): 823-845.
+18. Reichman J.H, Rai, A, Uhlir P, and **Crossman C.**; Pathways across the Valley of Death: Novel intellectual property strategies for accelerated drug discovery. 2008 Yale Journal of Health Policy, Law, and Ethics, Vol 8(1).
+19. **Colin Crossman** & Arti Rai, A Brief History of BioPerl (December 2, 2005). Available at: https://scholarship.law.duke.edu/faculty_scholarship/3686
+20. Webbink, **Crossman**, Griffin, and Silverstein; Red Hat's Comments to the Joint FTC/DOJ hearing on Competition and Intellectual Property Law, March 20, 2002. http://www.ftc.gov/opp/intellect/020320webbink.pdf (alternate link: [https://crc32.com/020320webbink.pdf](/020320webbink.pdf))

@@ -104,7 +104,7 @@ draft: false
 ## Publications
 1. **Colin Crossman**; Wyoming Introduces Bitcoin Strategic Reserve Bill. Bitcoin Magazine (2025-01-17). Available at: https://bitcoinmagazine.com/politics/wyoming-introduces-bitcoin-strategic-reserve-bill-
 2. Christopher Land, **Colin Crossman**, Jesse Naiman; 
-Amicus Brief in the United States Supreme Court, for Senator Lummis and WY Secretary of State Chuck Gray, in *Texas Top Cop Shop v. Garland*. Filed on 2025-01-10. Available at: {{ .Site.BaseURL }}/wysos-lummis-sct-amicus-cta.pdf
+Amicus Brief in the United States Supreme Court, for Senator Lummis and WY Secretary of State Chuck Gray, in *Texas Top Cop Shop v. Garland*. Filed on 2025-01-10. Available at: https://crc32.com/wysos-lummis-sct-amicus-cta.pdf
 3. **Colin Crossman**; Debanked: The Financial Suppression of Bitcoin Businesses Must End. Bitcoin Magazine (2024-12-03). Available at: https://bitcoinmagazine.com/politics/debanked-the-financial-suppression-of-bitcoin-businesses-must-end
 4. **Colin Crossman**; Tornado Cash Loses Motion to Dismiss - A short summary of the recent decision regarding the Tornado Cash case. BitcoinMagazine.com (2024-09-27). Available at: https://bitcoinmagazine.com/legal/tornado-cash-loses-motion-to-dismiss
 5. **Colin Crossman**; The BITCOIN Act of 2024 - A brief overview of the recently proposed bill by Senator Cynthia Lummis to accumulate Bitcoin in a strategic US Reserve. BitcoinMagazine.com (2024-08-02). Available at: https://bitcoinmagazine.com/legal/the-bitcoin-act-of-2024-

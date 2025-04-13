@@ -15,11 +15,11 @@ draft: false
 - Provide advice and background on statutory and rule changes affecting the Business Division.
 - Supervise Business Division staff.
 - Provide testimony to the Wyoming Legislature on the operation of the Business Division, and coordinate the interaction of the Division with Legislators, other Executive agencies, and the public.
-- Prepare and file amicus brief on behalf of the Wyoming Secretary of State in the [*Custodia v. Federal Reserve*](https://www.courtlistener.com/docket/68486662/010011075367/custodia-bank-v-federal-reserve-board-of-governors/) appeal.
+- Prepare and file amici briefs on behalf of the Wyoming Secretary of State in the United States Supreme Court and the 10th Cir. Court of Appeals.
 - Wrote a small tool in Python to automate name checks, which saved one person-day of work per day.
 
 #### Distributed Hash
-**Member** | **Wyoming** | **January 2022 - Present**
+**Member & In House Counsel** | **Wyoming** | **January 2022 - Present**
 - Design and build out of Bitcoin ASIC hosting facility.
 - Construct custom measurement and reporting software.
 - Build out telegram chat bot interface in Python to automate remote facility control.
@@ -27,7 +27,7 @@ draft: false
 - Regulatory outreach with municipal and county governments in Wyoming and Colorado.
 
 #### Rhea Hospitality
-**Principal and Manager** | **Cary, NC & Las Vegas, NV** | **November 2007 - April 2023**
+**Principal and General Counsel** | **Cary, NC & Las Vegas, NV** | **November 2007 - April 2023**
 - Raised $5.5M for acquisition and renovation of The Retreat on Charleston Peak, a hotel outside of Las Vegas.
 - Lobbied for and negotiated a public-private partnership between Memento Mori, LLC and the Town of Cary, NC, for the construction of the Mayton Inn, a $14.5M, 45-room boutique hotel, with ~$4M in incentives and Town-backed loans.
 - Raised $3.5M in private equity, $11M in private loan funds, and $2.5M in public loans for the Mayton Inn.
@@ -35,6 +35,7 @@ draft: false
 - Negotiated construction and development contracts with a variety of trades and vendors.
 - Financed, built, and opened The King’s Daughters Inn during the market downturn of 2008-2009.
 - Managed outside counsel in the successful syndication of federal and state historic tax credits during the market crash of 2008.
+- Develop and implement plan to take company public with an SEC Reg A+ offering through a Delaware PBC entity.
 - Oversee all aspects of IT, bookkeeping, reservations, and guest relations.
 - Develop in-house tools to assist in the automation and execution of work tasks by others.
 - Develop and maintain several tools which integrated data from three separate POS systems and timeclocks, resulting in a net savings of 10 hours of labor per payroll run.
@@ -98,7 +99,7 @@ draft: false
 - Wyoming Licensed Attorney, **#8-7039**
 - North Carolina Licensed Attorney, **#31468**
 - Licensed before the United States Patent and Trademark Office, **#52782**
-- North Carolina Real Estate Commission, **#250323** (INACTIVE)
+- Licensed to practice before the 10th Circuit Court of Appeals and the United States Supreme Court
 
 
 ## Publications

@@ -12,6 +12,7 @@ mkdir public
 # Build the project.
 hugo -t researcher # if using a theme, replace with `hugo -t <YOURTHEME>`
 
+cp -f /Users/crc32/Projects/crc32-sitefiles/public/about/index.html /Users/crc32/Projects/crc32-sitefiles/public/
 cp -R /Users/crc32/Projects/crc32-sitefiles/public/ /Users/crc32/Projects/crc32.github.io/
 
 mv /Users/crc32/Projects/crc32.github.io/Crossman-CV.pdf /Users/crc32/Projects/crc32.github.io/crossman-cv.pdf
@@ -24,7 +25,7 @@ msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
-cp /Users/crc32/Projects/crc32-sitefiles/public/about/index.html /Users/crc32/Projects/crc32-sitefiles/public/
+
 git commit -m "$msg"
 
 # Push source and build repos.

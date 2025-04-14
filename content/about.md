@@ -10,57 +10,55 @@ draft: false
 
 #### Secretary of State's Office, State of Wyoming
 **Director of the Business Division** | **Wyoming** | **April 2023 - Present**
-- Manage Business Filing Division, covering LLCs, Corporations, Partnerships, Trusts, &c.
-- Address complex filing issues arising during the operation of the Office.
-- Provide advice and background on statutory and rule changes affecting the Business Division.
-- Supervise Business Division staff.
-- Provide testimony to the Wyoming Legislature on the operation of the Business Division, and coordinate the interaction of the Division with Legislators, other Executive agencies, and the public.
-- Prepare and file amici briefs on behalf of the Wyoming Secretary of State in the United States Supreme Court and the 10th Cir. Court of Appeals.
-- Wrote a small tool in Python to automate name checks, which saved one person-day of work per day.
+- Lead division managing high-volume corporate filings (600K+/year), aligning operations with evolving data protection, KYC/AML, and public record transparency standards; coordinated state-level response to the Corporate Transparency Act Beneficial Ownership Information rule at FinCEN.
+- Resolve cross-functional legal and operational issues through deep statutory knowledge and inter-agency coordination across legal, IT, and policy teams; improving legal accuracy and filing turnaround through deep knowledge of Wyoming corporate law.
+- Advise on legislative reforms involving business and privacy law; influence state-level data governance through statutory analysis and counsel collaboration.
+- Testify before state legislature to advocate for modernized digital business infrastructure, including reforms impacting privacy, data access, and automation policy; coordinated cross-agency input from legal, policy, and IT teams.</li>
+- Co-authored an amicus brief for U.S. Supreme Court in the *[Texas Top Cop Shop v. Garland](https://crc32.com/wysos-lummis-sct-amicus-cta.pdf)* case, on legal frameworks governing state regulatory authority, technology sovereignty, and data control.
+- Prepare and file amicus brief on behalf of the Wyoming Secretary of State in the *[Custodia v. Federal Reserve](https://www.courtlistener.com/docket/68486662/010011075367/custodia-bank-v-federal-reserve-board-of-governors/)* appeal.
+- Designed legal-tech automation using Python to streamline corporate name checks, reducing manual review and aligning with digital compliance strategy, saving ~1 FTE/day and boosting processing throughput by 7%.</li>
+
 
 #### Distributed Hash
 **Member & In House Counsel** | **Wyoming** | **January 2022 - Present**
-- Design and build out of Bitcoin ASIC hosting facility.
-- Construct custom measurement and reporting software.
-- Build out telegram chat bot interface in Python to automate remote facility control.
-- Generate and publish public reports & insights.
-- Regulatory outreach with municipal and county governments in Wyoming and Colorado.
+- Served as General Counsel for all legal matters, negotiating AI-adjacent infrastructure and data-hosting contracts, including academic partnerships, ensuring privacy compliance, IP safeguards, and commercial viability.
+- Directed design and launch of digital infrastructure facility, overseeing regulatory approvals across jurisdictions, managing compliance with environmental, data handling, and emerging crypto/tech law.
+- Built internal compliance systems using Python/SQL to enable real-time monitoring and generate audit-ready records aligned with internal control and risk mitigation frameworks.
+- Developed Python-based automation for remote infrastructure control, improving uptime, reducing manual risk, and supporting operational compliance in remote-first environments.
+- Published regulatory insights and legal whitepapers for investors and policymakers, translating complex tech issues into actionable frameworks on energy use, infrastructure, and AI-adjacent systems.
+- Led regulatory engagement with local authorities to secure permits and compliance across infrastructure and data-related operations, ensuring alignment with privacy, environmental, and public trust standards.
+- Negotiated long-term tech infrastructure and utility service agreements, balancing legal risk, operational needs, and data center continuity for compute-intensive systems.
+- Oversee multi-jurisdictional legal and regulatory compliance, including zoning, data governance, and operational disclosures, ensuring ongoing risk mitigation for privacy-sensitive infrastructure.
+
 
 #### Rhea Hospitality
 **Principal and General Counsel** | **Cary, NC & Las Vegas, NV** | **November 2007 - April 2023**
-- Raised $5.5M for acquisition and renovation of The Retreat on Charleston Peak, a hotel outside of Las Vegas.
-- Lobbied for and negotiated a public-private partnership between Memento Mori, LLC and the Town of Cary, NC, for the construction of the Mayton Inn, a $14.5M, 45-room boutique hotel, with ~$4M in incentives and Town-backed loans.
-- Raised $3.5M in private equity, $11M in private loan funds, and $2.5M in public loans for the Mayton Inn.
-- Developed and submitted the site plan, minor special use permit, development review board, and variance applications for the Inn.
-- Negotiated construction and development contracts with a variety of trades and vendors.
-- Financed, built, and opened The King’s Daughters Inn during the market downturn of 2008-2009.
-- Managed outside counsel in the successful syndication of federal and state historic tax credits during the market crash of 2008.
-- Develop and implement plan to take company public with an SEC Reg A+ offering through a Delaware PBC entity.
-- Oversee all aspects of IT, bookkeeping, reservations, and guest relations.
-- Develop in-house tools to assist in the automation and execution of work tasks by others.
-- Develop and maintain several tools which integrated data from three separate POS systems and timeclocks, resulting in a net savings of 10 hours of labor per payroll run.
-- Spearheaded a project to design and implement a custom communications system which saved the company $100k.
-- Constructed internal business intelligence analytical tools and data visualizations using Python, SQL & Flask.
-- Successfully guided the development or acquisition, and the subsequent operation, of three hotels, and a total of 135 employees.
-- Build and maintain the data infrastructure for the business, including cloud services such as AWS, DigitalOcean, and Azure.
+- Founded and led a multi-state hospitality group, overseeing legal, financial, and regulatory operations for a 135-person team and $7M+ in annual revenue; served as de facto General Counsel for all contracts, compliance, and risk management.
+- Drafted and negotiated commercial agreements across construction, vendor, and financing domains; provided in-house legal counsel across multiple jurisdictions with a focus on aligning business needs with legal risk mitigation.
+- Structured and closed $17M+ in capital through private placements, public funding, and municipal partnerships; led all legal due diligence, regulatory compliance, and investor disclosures.
+- Structured Regulation A+ offering via Delaware PBC, managing compliance with SEC disclosure and investor protection requirements in preparation for Tier 2 qualification.
+- Drafted and secured zoning and permitting approvals across jurisdictions, navigating public infrastructure, data access, and environmental standards for complex operational footprints.
+- Designed and deployed internal legal/ops automation tools (Python, SQL, Flask), streamlining payroll and compliance workflows and saving $100K+ annually in operational overhead.
+
 
 #### PhD Posters, LLC
 **Member and General Counsel** | **Durham, NC** | **November 2005 - April 2023**
-- Address complex laws, rules and regulations related to an online business with physical locations in multiple jurisdictions.
-- Work with overseas counsel to establish Canadian subsidiary for international expansion.
-- Manage all in-house legal work, including trademark acquisition, drafting of licensing agreements, and devising the route for expanding the business model.
-- Oversee the adoption of new licensees, from initial contact to execution of the license agreement.
-- Help grow the company, which has expanded from a singe site to the current eight locations.
+- Provided end-to-end legal leadership for $1.2M+ multi-location e-commerce operation; oversaw commercial contracts, IP protection, and data compliance across digital and physical retail environments.
+- Drafted consumer-facing terms, franchise agreements, and IP filings; managed legal strategy for brand protection and commercial scalability, including federal trademark portfolio.
+- Directed international legal and tax strategy for Canadian subsidiary; managed outside counsel and ensured cross-border compliance with consumer protection and data regulations.
+- Led legal structuring for transition to national e-commerce model, aligning legal operations and commercial strategy to support growth, digital consumer privacy, and fulfillment compliance.
+- Acted as General Counsel for all business operations, handling employment matters, dispute resolution, and commercial contracts, while advising on risk, compliance, and business enablement for digital operations.
+
 
 #### Foundation for Individual Rights in Education (FIRE)
 **Senior Program Officer** | **Philadelphia, PA** | **May 2015 - January 2016**  
 **IT Consultant** | **Philadelphia, PA** | **July 2020 - Present**
-- Researched university speech codes, classifying them with respect to constitutionality.
-- Communicate with university staff to discuss and educate regarding the constitutionality of speech codes.
-- Provided ad-hoc assistance with technical matters (IT support, website support, etc.).
-- Using Python, developed and deployed a tool to more efficiently track which universities needed to be updated, and which staffer had most recently made updates.
-- Design, build, and deploy new internal phone system based on 3CX.
-- Manage the transition from Lastpass to Okta for internal security controls.
+- Researched and classified university speech codes for constitutional compliance; collaborated with university administrators to improve policy language and align with First Amendment standards.
+- Developed a Python-based tracking system to monitor outreach progress and ensure timely updates by internal staff.
+- Designed and deployed a 3CX-based internal VoIP system, modernizing office communications and reducing IT overhead.
+- Led the organization-wide migration from LastPass to Okta, strengthening internal security posture and access control.
+- Provided on-demand technical consulting across web infrastructure, cybersecurity, and internal systems.
+
 
 #### Triangle Apartment Association
 **Government Affairs Director** | **Raleigh, NC** | **January 2008 - March 2009**
@@ -72,12 +70,14 @@ draft: false
 - Monitored legislative and regulatory activities and developed positions on such.  
 - Educated association members on the legislative and regulatory environment, and coordinated member responses.
 
+
 #### Duke University School of Law
 **Faculty Fellow for IP Law** | **Durham, NC** | **January 2005 - August 2006**
 - Faculty fellow under the Center for the study of Public Genomics.
 - Researched the effects of software patents owned by universities, with specific foci on the creation and dissemination of genomic data.
 - Developed and taught upper-level law course on Intellectual Property Licensing.
 - Work both independently and collaboratively to produce and publish academic research, and engage in periodic academic conferences and meetings to present findings.
+
 
 ## Academic Experience
 **Duke University Medical Center** | **Durham, NC** | **August 2006 - August 2007**   

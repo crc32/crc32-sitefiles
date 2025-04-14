@@ -50,7 +50,7 @@ draft: false
 - Acted as General Counsel for all business operations, handling employment matters, dispute resolution, and commercial contracts, while advising on risk, compliance, and business enablement for digital operations.
 
 
-#### Foundation for Individual Rights in Education (FIRE)
+#### Foundation for Individual Rights and Expression (FIRE)
 **Senior Program Officer** | **Philadelphia, PA** | **May 2015 - January 2016**  
 **IT Consultant** | **Philadelphia, PA** | **July 2020 - Present**
 - Researched and classified university speech codes for constitutional compliance; collaborated with university administrators to improve policy language and align with First Amendment standards.

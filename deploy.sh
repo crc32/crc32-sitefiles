@@ -24,6 +24,7 @@ msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
+cp /Users/crc32/Projects/crc32-sitefiles/public/about/index.html /Users/crc32/Projects/crc32-sitefiles/public/
 git commit -m "$msg"
 
 # Push source and build repos.

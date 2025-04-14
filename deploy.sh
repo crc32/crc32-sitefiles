@@ -31,5 +31,5 @@ git commit -m "$msg"
 git push
 
 # push website
-git -C /Users/crc32/Projects/crc32.github.io commit -a "update website"
+git -C /Users/crc32/Projects/crc32.github.io commit -a -m "update website"
 git -C /Users/crc32/Projects/crc32.github.io push

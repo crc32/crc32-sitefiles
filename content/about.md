@@ -9,7 +9,7 @@ draft: false
 ## Experience
 
 #### Secretary of State's Office, State of Wyoming
-**Deputy Secretary of State** | **Wyoming** | **November 2025 - Present**
+**Deputy Secretary of State** | **Wyoming** | **November 2025 - Present**<br />
 **Director of the Business Division** | **Wyoming** | **April 2023 - November 2025**
 - Lead division managing high-volume corporate filings (600K+/year), aligning operations with evolving data protection, KYC/AML, and public record transparency standards; coordinated state-level response to the Corporate Transparency Act Beneficial Ownership Information rule at FinCEN.
 - Resolve cross-functional legal and operational issues through deep statutory knowledge and inter-agency coordination across legal, IT, and policy teams; improving legal accuracy and filing turnaround through deep knowledge of Wyoming corporate law.
@@ -21,7 +21,7 @@ draft: false
 
 
 #### Distributed Hash
-**Member & In House Counsel** | **Wyoming** | **January 2022 - Present**
+**Member & In House Counsel** | **Wyoming** | **January 2022 - October 2025**
 - Served as General Counsel for all legal matters, negotiating AI-adjacent infrastructure and data-hosting contracts, including academic partnerships, ensuring privacy compliance, IP safeguards, and commercial viability.
 - Directed design and launch of digital infrastructure facility, overseeing regulatory approvals across jurisdictions, managing compliance with environmental, data handling, and emerging crypto/tech law.
 - Built internal compliance systems using Python/SQL to enable real-time monitoring and generate audit-ready records aligned with internal control and risk mitigation frameworks.
@@ -53,7 +53,7 @@ draft: false
 
 #### Foundation for Individual Rights and Expression (FIRE)
 **Senior Program Officer** | **Philadelphia, PA** | **May 2015 - January 2016**  
-**IT Consultant** | **Philadelphia, PA** | **July 2020 - Present**
+**IT Consultant** | **Philadelphia, PA** | **July 2020 - April 2023**
 - Researched and classified university speech codes for constitutional compliance; collaborated with university administrators to improve policy language and align with First Amendment standards.
 - Developed a Python-based tracking system to monitor outreach progress and ensure timely updates by internal staff.
 - Designed and deployed a 3CX-based internal VoIP system, modernizing office communications and reducing IT overhead.

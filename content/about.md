@@ -9,7 +9,7 @@ draft: false
 ## Experience
 
 #### Secretary of State's Office, State of Wyoming
-**Director of the Business Division** | **Wyoming** | **November 2025 - Present**
+**Deputy Secretary of State** | **Wyoming** | **November 2025 - Present**
 - Coordinate agency-wide operations and strategy across core regulatory and public-service functions (business entities/UCC, securities, notaries, public records, and related services).
 - Lead legislative and policy development in partnership with the Governor’s office, AG’s office, and legislative committees; translate statutory changes into executable procedures and public-facing guidance.
 - Oversee modernization initiatives (process redesign, data governance, cybersecurity alignment, vendor management/procurement), with measurable SLAs and dashboards for throughput, accuracy, and cost.

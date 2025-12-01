@@ -1,6 +1,6 @@
 ---
 title: "Colin Crossman's CV"
-date: 2024-06-05T09:34:14-05:00
+date: 2025-12-01T12:29:14-07:00
 draft: false
 ---
 
@@ -9,7 +9,17 @@ draft: false
 ## Experience
 
 #### Secretary of State's Office, State of Wyoming
-**Director of the Business Division** | **Wyoming** | **April 2023 - Present**
+**Director of the Business Division** | **Wyoming** | **November 2025 - Present**
+- Coordinate agency-wide operations and strategy across core regulatory and public-service functions (business entities/UCC, securities, notaries, public records, and related services).
+- Lead legislative and policy development in partnership with the Governor’s office, AG’s office, and legislative committees; translate statutory changes into executable procedures and public-facing guidance.
+- Oversee modernization initiatives (process redesign, data governance, cybersecurity alignment, vendor management/procurement), with measurable SLAs and dashboards for throughput, accuracy, and cost.
+- Direct intergovernmental coordination on CTA/BOI issues with FinCEN and state partners; align state systems with evolving federal compliance while safeguarding state transparency and privacy standards.
+- Support litigation/rulemaking posture, including amicus strategy on matters touching state regulatory authority and technology sovereignty.
+- Build leadership capacity, mentoring managers, strengthening succession pipelines, and institutionalizing continuous-improvement practices. 
+
+
+#### Secretary of State's Office, State of Wyoming
+**Director of the Business Division** | **Wyoming** | **April 2023 - November 2025**
 - Lead division managing high-volume corporate filings (600K+/year), aligning operations with evolving data protection, KYC/AML, and public record transparency standards; coordinated state-level response to the Corporate Transparency Act Beneficial Ownership Information rule at FinCEN.
 - Resolve cross-functional legal and operational issues through deep statutory knowledge and inter-agency coordination across legal, IT, and policy teams; improving legal accuracy and filing turnaround through deep knowledge of Wyoming corporate law.
 - Advise on legislative reforms involving business and privacy law; influence state-level data governance through statutory analysis and counsel collaboration.
@@ -20,7 +30,7 @@ draft: false
 
 
 #### Distributed Hash
-**Member & In House Counsel** | **Wyoming** | **January 2022 - Present**
+**Member & In House Counsel** | **Wyoming** | **January 2022 - October 2025**
 - Served as General Counsel for all legal matters, negotiating AI-adjacent infrastructure and data-hosting contracts, including academic partnerships, ensuring privacy compliance, IP safeguards, and commercial viability.
 - Directed design and launch of digital infrastructure facility, overseeing regulatory approvals across jurisdictions, managing compliance with environmental, data handling, and emerging crypto/tech law.
 - Built internal compliance systems using Python/SQL to enable real-time monitoring and generate audit-ready records aligned with internal control and risk mitigation frameworks.
@@ -103,35 +113,36 @@ draft: false
 
 
 ## Publications
-1. **Colin Crossman**; The Trolls Are Coming: Defending Bitcoin Mining from Patent Trolls. Bitcoin Magazine (2025-06-18). Available at: https://bitcoinmagazine.com/legal/the-trolls-are-coming-defending-bitcoin-mining-from-patent-trolls
-2. **Colin Crossman**; Nebraska’s New Mining Rules: Infrastructure Safeguard or Soft Ban in Disguise? Bitcoin Magazine (2025-05-19). Available at: https://bitcoinmagazine.com/legal/nebraskas-new-mining-rules-infrastructure-safeguard-or-soft-ban-in-disguise
-3. **Colin Crossman**; Wyoming Introduces Bitcoin Strategic Reserve Bill. Bitcoin Magazine (2025-01-17). Available at: https://bitcoinmagazine.com/politics/wyoming-introduces-bitcoin-strategic-reserve-bill-
-4. Christopher Land, **Colin Crossman**, Jesse Naiman; 
+1. **Colin Crossman**; Tenth Circuit Hands Fed a Win: Custodia Denied Master Account in Blow to Crypto Sovereignty, Dissent Brings the Heat. Bitcoin Magazine (2025-10-31). Available at: https://bitcoinmagazine.com/legal/tenth-circuit-hands-fed-a-win-custodia-denied-master-account-in-blow-to-crypto-sovereignty-dissent-brings-the-heat
+2. **Colin Crossman**; The Trolls Are Coming: Defending Bitcoin Mining from Patent Trolls. Bitcoin Magazine (2025-06-18). Available at: https://bitcoinmagazine.com/legal/the-trolls-are-coming-defending-bitcoin-mining-from-patent-trolls
+3. **Colin Crossman**; Nebraska’s New Mining Rules: Infrastructure Safeguard or Soft Ban in Disguise? Bitcoin Magazine (2025-05-19). Available at: https://bitcoinmagazine.com/legal/nebraskas-new-mining-rules-infrastructure-safeguard-or-soft-ban-in-disguise
+4. **Colin Crossman**; Wyoming Introduces Bitcoin Strategic Reserve Bill. Bitcoin Magazine (2025-01-17). Available at: https://bitcoinmagazine.com/politics/wyoming-introduces-bitcoin-strategic-reserve-bill-
+5. Christopher Land, **Colin Crossman**, Jesse Naiman; 
 Amicus Brief in the United States Supreme Court, for Senator Lummis and WY Secretary of State Chuck Gray, in *Texas Top Cop Shop v. Garland*. Filed on 2025-01-10. Available at: https://crc32.com/wysos-lummis-sct-amicus-cta.pdf
-5. **Colin Crossman**; Debanked: The Financial Suppression of Bitcoin Businesses Must End. Bitcoin Magazine (2024-12-03). Available at: https://bitcoinmagazine.com/politics/debanked-the-financial-suppression-of-bitcoin-businesses-must-end
-6. **Colin Crossman**; Tornado Cash Loses Motion to Dismiss - A short summary of the recent decision regarding the Tornado Cash case. BitcoinMagazine.com (2024-09-27). Available at: https://bitcoinmagazine.com/legal/tornado-cash-loses-motion-to-dismiss
-7. **Colin Crossman**; The BITCOIN Act of 2024 - A brief overview of the recently proposed bill by Senator Cynthia Lummis to accumulate Bitcoin in a strategic US Reserve. BitcoinMagazine.com (2024-08-02). Available at: https://bitcoinmagazine.com/legal/the-bitcoin-act-of-2024-
-8. **Colin Crossman**; The Federal Reserve, Cusotodia Bank, and The Battle For Sovereignty - A Review of the Amicus Briefs in the Custodia Case. BitcoinMagazine.com (2024-07-05). Available at: https://bitcoinmagazine.com/legal/the-federal-reserve-custodia-bank-and-the-battle-for-constitutional-sovereignty
-9. **Colin Crossman**; Wyoming Secretary of State Amicus Brief in *Custodia Bank v. Federal Reserve Board of Governors*. Filed on 2024-07-03. Available at: https://www.courtlistener.com/docket/68486662/010011075367/custodia-bank-v-federal-reserve-board-of-governors/ 
-10. **Colin Crossman**; Supreme Court Decision Overturns *Chevron*: a Victory for Judicial Authority and Bitcoin. BitcoinMagazine.com (2024-06-28). Available at: https://bitcoinmagazine.com/legal/supreme-court-decision-overturns-chevron-a-victory-for-judicial-authority-and-bitcoin
-11. **Colin Crossman**; NRA & Cantero in the Supreme Court: Implications For Operation Choke Point 2.0 And Custodia Bank. BitcoinMagazine.com (2024-05-31). Available at: https://bitcoinmagazine.com/legal/nra-cantero-cases-implications-for-operation-choke-point-2-0-and-custodia-bank
-12. **Colin Crossman**; Final Agreement on EIA Emergency Survey Released. BitcoinMagazine.com (2024-03-01). Available at: https://bitcoinmagazine.com/legal/final-agreement-on-eia-emergency-survey-released
-13. **Colin Crossman**; EIA Emergency Survey Preliminary Injunction Hearing Canceled Yesterday. BitcoinMagazine.com (2024-02-29). Available at: https://bitcoinmagazine.com/legal/eia-emergency-survey-preliminary-injuction-hearing-canceled-yesterday
-14. **Colin Crossman**; Riot Platforms And Texas Bitcoin Council Seek Injunction Against Survey. BitcoinMagazine.com (2024-02-23). Available at: https://bitcoinmagazine.com/legal/miners-vs-the-eia-hearing-in-waco-texas
-15. **Colin Crossman**; Resisting The EIA: One Possible Playbook. BitcoinMagazine.com (2024-02-13). Available at: https://bitcoinmagazine.com/legal/resisting-the-eia-one-possible-playbook
-16. **Colin Crossman**; High Fees VS. "High Fees": How I Learned To Stop Worrying And Love The Mempool. BitcoinMagazine.com (2024-01-05). Available at: https://bitcoinmagazine.com/markets/high-fees-vs-high-fees-how-i-learned-to-stop-worrying-and-love-the-mempool
-17. Robert Warren and **Colin Crossman**; Beyond the kWh: Factors That Bitcoin Miners Need To Consider. BitcoinMagazine.com (2022-07-14). Available at: https://bitcoinmagazine.com/markets/factors-bitcoin-miners-need-to-consider
-18. **Colin Crossman**; West Virginia Vs. EPA: Good News For Bitcoin, Beyond The Obvious. BitcoinMagazine.com  (2022-07-01). Available at: https://bitcoinmagazine.com/legal/west-virginia-epa-supreme-court-bitcoin
-19. **Colin Crossman**; What Bitcoiners Need to Know About Jury Nullification in a Hostile Legal System. BitcoinMagazine.com  (2022-04-03). Available at: https://bitcoinmagazine.com/culture/future-jury-nullification-for-bitcoin-users
-20. **Colin Crossman**; Economically Incentivized Innovation Sets Bitcoin Apart: Unitary Money. BitcoinMagazine.com  (2022-03-31). Available at: https://bitcoinmagazine.com/business/innovation-sets-bitcoin-apart
-21. **Colin Crossman**, Mark Maraia, and Heidi Porter; Bitcoin For Small Businesses: Front Line Options. BitcoinMagazine.com  (2022-03-16). Available at: https://bitcoinmagazine.com/business/bitcoin-for-small-businesses-options
-22. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and the Smallest Businesses: Cantillon Effects and Why They Need Bitcoin. BitcoinMagazine.com  (2022-01-29). Available at: https://bitcoinmagazine.com/business/why-small-businesses-need-bitcoin
-23. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and Business: What is your Bitcoin strategy? BitcoinMagazine.com  (2022-01-10). Available at: https://bitcoinmagazine.com/business/bitcoin-and-businesses-a-bitcoin-strategy
-24. Rick Poach and **Colin Crossman**; Bitcoin Community Projects Communicate the Message of Freedom. BitcoinMagazine.com  (2021-10-31). Available at: https://bitcoinmagazine.com/culture/bitcoin-community-projects-freedom
-25. U.S. Patent No. 9,364,012 (issued Jun. 14, 2016). (**Colin R. Crossman**, attorney of record)
-26. Kepler, T.; **Crossman, C.**; Cook-Deegan, R.; Metastasizing patent claims on BRCA1. Genomics (2010)
+6. **Colin Crossman**; Debanked: The Financial Suppression of Bitcoin Businesses Must End. Bitcoin Magazine (2024-12-03). Available at: https://bitcoinmagazine.com/politics/debanked-the-financial-suppression-of-bitcoin-businesses-must-end
+7. **Colin Crossman**; Tornado Cash Loses Motion to Dismiss - A short summary of the recent decision regarding the Tornado Cash case. BitcoinMagazine.com (2024-09-27). Available at: https://bitcoinmagazine.com/legal/tornado-cash-loses-motion-to-dismiss
+8. **Colin Crossman**; The BITCOIN Act of 2024 - A brief overview of the recently proposed bill by Senator Cynthia Lummis to accumulate Bitcoin in a strategic US Reserve. BitcoinMagazine.com (2024-08-02). Available at: https://bitcoinmagazine.com/legal/the-bitcoin-act-of-2024-
+9. **Colin Crossman**; The Federal Reserve, Cusotodia Bank, and The Battle For Sovereignty - A Review of the Amicus Briefs in the Custodia Case. BitcoinMagazine.com (2024-07-05). Available at: https://bitcoinmagazine.com/legal/the-federal-reserve-custodia-bank-and-the-battle-for-constitutional-sovereignty
+10. **Colin Crossman**; Wyoming Secretary of State Amicus Brief in *Custodia Bank v. Federal Reserve Board of Governors*. Filed on 2024-07-03. Available at: https://www.courtlistener.com/docket/68486662/010011075367/custodia-bank-v-federal-reserve-board-of-governors/ 
+11. **Colin Crossman**; Supreme Court Decision Overturns *Chevron*: a Victory for Judicial Authority and Bitcoin. BitcoinMagazine.com (2024-06-28). Available at: https://bitcoinmagazine.com/legal/supreme-court-decision-overturns-chevron-a-victory-for-judicial-authority-and-bitcoin
+12. **Colin Crossman**; NRA & Cantero in the Supreme Court: Implications For Operation Choke Point 2.0 And Custodia Bank. BitcoinMagazine.com (2024-05-31). Available at: https://bitcoinmagazine.com/legal/nra-cantero-cases-implications-for-operation-choke-point-2-0-and-custodia-bank
+13. **Colin Crossman**; Final Agreement on EIA Emergency Survey Released. BitcoinMagazine.com (2024-03-01). Available at: https://bitcoinmagazine.com/legal/final-agreement-on-eia-emergency-survey-released
+14. **Colin Crossman**; EIA Emergency Survey Preliminary Injunction Hearing Canceled Yesterday. BitcoinMagazine.com (2024-02-29). Available at: https://bitcoinmagazine.com/legal/eia-emergency-survey-preliminary-injuction-hearing-canceled-yesterday
+15. **Colin Crossman**; Riot Platforms And Texas Bitcoin Council Seek Injunction Against Survey. BitcoinMagazine.com (2024-02-23). Available at: https://bitcoinmagazine.com/legal/miners-vs-the-eia-hearing-in-waco-texas
+16. **Colin Crossman**; Resisting The EIA: One Possible Playbook. BitcoinMagazine.com (2024-02-13). Available at: https://bitcoinmagazine.com/legal/resisting-the-eia-one-possible-playbook
+17. **Colin Crossman**; High Fees VS. "High Fees": How I Learned To Stop Worrying And Love The Mempool. BitcoinMagazine.com (2024-01-05). Available at: https://bitcoinmagazine.com/markets/high-fees-vs-high-fees-how-i-learned-to-stop-worrying-and-love-the-mempool
+18. Robert Warren and **Colin Crossman**; Beyond the kWh: Factors That Bitcoin Miners Need To Consider. BitcoinMagazine.com (2022-07-14). Available at: https://bitcoinmagazine.com/markets/factors-bitcoin-miners-need-to-consider
+19. **Colin Crossman**; West Virginia Vs. EPA: Good News For Bitcoin, Beyond The Obvious. BitcoinMagazine.com  (2022-07-01). Available at: https://bitcoinmagazine.com/legal/west-virginia-epa-supreme-court-bitcoin
+20. **Colin Crossman**; What Bitcoiners Need to Know About Jury Nullification in a Hostile Legal System. BitcoinMagazine.com  (2022-04-03). Available at: https://bitcoinmagazine.com/culture/future-jury-nullification-for-bitcoin-users
+21. **Colin Crossman**; Economically Incentivized Innovation Sets Bitcoin Apart: Unitary Money. BitcoinMagazine.com  (2022-03-31). Available at: https://bitcoinmagazine.com/business/innovation-sets-bitcoin-apart
+22. **Colin Crossman**, Mark Maraia, and Heidi Porter; Bitcoin For Small Businesses: Front Line Options. BitcoinMagazine.com  (2022-03-16). Available at: https://bitcoinmagazine.com/business/bitcoin-for-small-businesses-options
+23. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and the Smallest Businesses: Cantillon Effects and Why They Need Bitcoin. BitcoinMagazine.com  (2022-01-29). Available at: https://bitcoinmagazine.com/business/why-small-businesses-need-bitcoin
+24. Heidi Porter, Mark Maraia, and **Colin Crossman**; Bitcoin and Business: What is your Bitcoin strategy? BitcoinMagazine.com  (2022-01-10). Available at: https://bitcoinmagazine.com/business/bitcoin-and-businesses-a-bitcoin-strategy
+25. Rick Poach and **Colin Crossman**; Bitcoin Community Projects Communicate the Message of Freedom. BitcoinMagazine.com  (2021-10-31). Available at: https://bitcoinmagazine.com/culture/bitcoin-community-projects-freedom
+26. U.S. Patent No. 9,364,012 (issued Jun. 14, 2016). (**Colin R. Crossman**, attorney of record)
+27. Kepler, T.; **Crossman, C.**; Cook-Deegan, R.; Metastasizing patent claims on BRCA1. Genomics (2010)
 doi: 10.1016/j.ygeno.2010.03.003
-27. **Crossman, C.**; Arming our Enemies: How parallel imports could increase Anti-microbial resistance. 2006 North Carolina Journal of International Law & Commercial Regulation. Vol 31(4): 823-845.
-28. Reichman J.H, Rai, A, Uhlir P, and **Crossman C.**; Pathways across the Valley of Death: Novel intellectual property strategies for accelerated drug discovery. 2008 Yale Journal of Health Policy, Law, and Ethics, Vol 8(1).
-29. **Colin Crossman** & Arti Rai, A Brief History of BioPerl (December 2, 2005). Available at: https://scholarship.law.duke.edu/faculty_scholarship/3686
-30. Webbink, **Crossman**, Griffin, and Silverstein; Red Hat's Comments to the Joint FTC/DOJ hearing on Competition and Intellectual Property Law, March 20, 2002. http://www.ftc.gov/opp/intellect/020320webbink.pdf (alternate link: [https://crc32.com/020320webbink.pdf](/020320webbink.pdf))
+28. **Crossman, C.**; Arming our Enemies: How parallel imports could increase Anti-microbial resistance. 2006 North Carolina Journal of International Law & Commercial Regulation. Vol 31(4): 823-845.
+29. Reichman J.H, Rai, A, Uhlir P, and **Crossman C.**; Pathways across the Valley of Death: Novel intellectual property strategies for accelerated drug discovery. 2008 Yale Journal of Health Policy, Law, and Ethics, Vol 8(1).
+30. **Colin Crossman** & Arti Rai, A Brief History of BioPerl (December 2, 2005). Available at: https://scholarship.law.duke.edu/faculty_scholarship/3686
+31. Webbink, **Crossman**, Griffin, and Silverstein; Red Hat's Comments to the Joint FTC/DOJ hearing on Competition and Intellectual Property Law, March 20, 2002. http://www.ftc.gov/opp/intellect/020320webbink.pdf (alternate link: [https://crc32.com/020320webbink.pdf](/020320webbink.pdf))

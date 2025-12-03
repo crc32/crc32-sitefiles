@@ -62,7 +62,7 @@ draft: false
 
 #### Foundation for Individual Rights and Expression (FIRE)
 **Senior Program Officer** | **Philadelphia, PA** | **May 2015 - January 2016**  
-**IT Consultant** | **Philadelphia, PA** | **July 2020 - Present**
+**IT Consultant** | **Philadelphia, PA** | **July 2020 - April 2023**
 - Researched and classified university speech codes for constitutional compliance; collaborated with university administrators to improve policy language and align with First Amendment standards.
 - Developed a Python-based tracking system to monitor outreach progress and ensure timely updates by internal staff.
 - Designed and deployed a 3CX-based internal VoIP system, modernizing office communications and reducing IT overhead.

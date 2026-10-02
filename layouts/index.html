@@ -51,17 +51,8 @@
 </section>
 
 {{/* ---------------------------------------------------------------- */}}
-{{- /* Build a date-sorted copy of the publications list. */}}
-{{- $pubs := slice }}
-{{- range $cv.publications }}
-  {{- $pubs = $pubs | append (merge . (dict "_key" (partial "sortkey.html" .date))) }}
-{{- end }}
-{{- $pubs = sort $pubs "_key" "desc" }}
-{{- $groups := slice
-    (dict "kind" "article" "label" "Articles & Commentary")
-    (dict "kind" "brief" "label" "Briefs & Filings")
-    (dict "kind" "scholarship" "label" "Scholarship")
-    (dict "kind" "other" "label" "Other") }}
+{{- $pubs := partial "pubs-sorted.html" . }}
+{{- $groups := partial "pub-groups.html" . }}
 
 <section id="writing" aria-labelledby="h-writing">
   <h2 id="h-writing">Writing</h2>

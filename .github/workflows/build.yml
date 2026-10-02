@@ -17,6 +17,11 @@ jobs:
           extended: true
       # --panicOnWarning turns template warnings into failures.
       - run: hugo --minify --panicOnWarning
+      # Render the PDF résumé the same way deploy.sh does, so a broken
+      # cv-pdf template or script fails here rather than at deploy time.
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run --with playwright playwright install --with-deps chromium
+      - run: uv run scripts/build_pdf.py --no-static
       - uses: actions/upload-artifact@v4
         with:
           name: site

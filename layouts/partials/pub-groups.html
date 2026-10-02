@@ -1,0 +1,6 @@
+{{- /* Publication groups, in display order. `kind` matches data/cv.yaml. */ -}}
+{{- return (slice
+    (dict "kind" "article" "label" "Articles & Commentary")
+    (dict "kind" "brief" "label" "Briefs & Filings")
+    (dict "kind" "scholarship" "label" "Scholarship")
+    (dict "kind" "other" "label" "Other")) -}}

@@ -8,6 +8,9 @@
 #   ~/Projects/crc32-sitefiles      (this repo: sources)
 #   ~/Projects/crc32.github.io      (built site, served at crc32.com)
 # Override with:  SITE_REPO=/path/to/crc32.github.io ./deploy.sh
+#
+# Requires: hugo (extended), uv, and Google Chrome (or Playwright's Chromium).
+# The PDF résumé is regenerated from data/cv.yaml on every deploy.
 
 # Stop on the first failing command.
 set -e
@@ -26,6 +29,12 @@ printf "\033[0;32mBuilding site...\033[0m\n"
 # Fresh build into ./public (ignored by git).
 rm -rf "$SRC_DIR/public"
 hugo --source "$SRC_DIR" --minify --gc
+
+# Render the PDF résumé from the built /cv-pdf/ page with headless Chrome.
+# Writes public/crossman-cv.pdf (deployed) and static/crossman-cv.pdf
+# (committed below), then removes the print-only page from public/.
+printf "\033[0;32mRendering PDF résumé...\033[0m\n"
+uv run "$SRC_DIR/scripts/build_pdf.py"
 
 # Copy the build over the Pages repo. Not a mirror: files that exist only in
 # the Pages repo are left alone.

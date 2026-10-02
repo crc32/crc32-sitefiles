@@ -1,0 +1,2 @@
+{{- /* Return "." unless the given text already ends in . ? or ! (avoids "Title?."). */ -}}
+{{- return (cond (findRE `[.?!]$` (plainify (string .))) "" ".") -}}

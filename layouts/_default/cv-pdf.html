@@ -1,0 +1,91 @@
+{{- /*
+  Print-only CV, rendered to PDF by scripts/build_pdf.py during deploy.
+  Standalone template (no baseof): Letter paper, compact résumé typography.
+  Page numbers are added by the PDF script's footer, not here.
+*/ -}}
+{{- $cv := site.Data.cv }}
+{{- $p := $cv.profile }}
+{{- $css := resources.Get "css/cv-pdf.css" | minify }}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>{{ $p.name }} — CV</title>
+  <style>{{ $css.Content | safeCSS }}</style>
+</head>
+<body>
+<header class="masthead">
+  <div>
+    <h1>{{ $p.name }}</h1>
+    <p class="headline">{{ $p.headline }}</p>
+  </div>
+  <ul class="contact">
+    <li>{{ $p.location }}</li>
+    <li><a href="mailto:{{ $p.email }}">{{ $p.email }}</a></li>
+    <li><a href="{{ site.BaseURL }}">{{ strings.TrimSuffix "/" (strings.TrimPrefix "https://" site.BaseURL) }}</a></li>
+    {{- range where site.Params.social "name" "LinkedIn" }}
+    <li><a href="{{ .url }}">linkedin.com/{{ .handle }}</a></li>
+    {{- end }}
+  </ul>
+</header>
+
+<section class="summary">{{ $p.summary | markdownify }}</section>
+
+<section>
+  <h2>Experience</h2>
+  {{- range $cv.experience }}
+  <article class="job">
+    <h3>{{ .org }}</h3>
+    {{- range .roles }}
+    <p class="role">
+      <span class="title">{{ .title }}</span>
+      <span class="meta">{{ with .location }}{{ . }} · {{ end }}{{ partial "fmtdate.html" .start }} – {{ partial "fmtdate.html" .end | default "Present" }}</span>
+    </p>
+    {{- end }}
+    <ul>{{ range .bullets }}<li>{{ . | markdownify }}</li>{{ end }}</ul>
+  </article>
+  {{- end }}
+</section>
+
+<div class="cols">
+  <section>
+    <h2>Education</h2>
+    {{- range $cv.education }}
+    <p class="edu"><strong>{{ .school }}</strong>, {{ .date }}<br>{{ .degree | markdownify }}</p>
+    {{- end }}
+  </section>
+  <section>
+    <h2>Bar Admissions &amp; Licenses</h2>
+    {{- range $cv.licenses }}
+    <p class="edu">{{ .name }}{{ with .number }} — No. {{ . }}{{ end }}</p>
+    {{- end }}
+  </section>
+</div>
+
+{{- $pubs := partial "pubs-sorted.html" . }}
+<section>
+  <h2>Writing</h2>
+  {{- range partial "pub-groups.html" . }}
+  {{- $items := where $pubs "kind" .kind }}
+  {{- if $items }}
+  <h3 class="group">{{ .label }}</h3>
+  <ol class="pubs">
+    {{- range $items }}
+    {{- $names := slice }}
+    {{- range .authors }}{{ if in . "Crossman" }}{{ $names = $names | append (printf "<strong>%s</strong>" .) }}{{ else }}{{ $names = $names | append . }}{{ end }}{{ end }}
+    <li>
+      <span class="d">{{ partial "sortkey.html" .date | strings.Truncate 4 "" }}</span>
+      <span>
+        {{- if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}{{ partial "dot.html" .title }}
+        <em>{{ .venue | markdownify }}</em>{{ partial "dot.html" .venue }}
+        {{- with $names }} {{ delimit . ", " | safeHTML }}{{ partial "dot.html" (index $names (sub (len $names) 1)) }}{{ end -}}
+      </span>
+    </li>
+    {{- end }}
+  </ol>
+  {{- end }}
+  {{- end }}
+</section>
+</body>
+</html>

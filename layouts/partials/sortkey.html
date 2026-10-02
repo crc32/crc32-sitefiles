@@ -1,0 +1,2 @@
+{{- /* Normalize any CV date to a sortable "YYYY-MM-DD"-prefixed string. */ -}}
+{{- return (substr (printf "%v" .) 0 10) -}}

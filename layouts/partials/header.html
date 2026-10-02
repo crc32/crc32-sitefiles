@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/">{{ site.Title }}</a>
+    <nav aria-label="Main">
+      {{- $current := . }}
+      {{- range site.Menus.main }}
+      <a href="{{ .URL }}"{{ if and (eq .URL "/") $current.IsHome }} aria-current="page"{{ else if eq .URL $current.RelPermalink }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{- end }}
+      <a class="btn" href="{{ site.Params.cvPDF }}" download>PDF</a>
+    </nav>
+  </div>
+</header>

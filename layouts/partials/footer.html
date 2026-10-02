@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <p>
+      © {{ now.Year }} {{ site.Params.author }}
+      {{- range site.Params.social }} · <a href="{{ .url }}" rel="me">{{ .name }}</a>{{ end }}
+    </p>
+    <p class="muted">Built with <a href="https://gohugo.io/">Hugo</a>. No trackers, no cookies, no third-party requests.</p>
+  </div>
+</footer>

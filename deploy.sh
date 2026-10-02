@@ -1,36 +1,48 @@
 #!/bin/sh
+#
+# Build crc32.com and publish it to the GitHub Pages repo (crc32/crc32.github.io).
+#
+# Usage:  ./deploy.sh ["optional commit message"]
+#
+# Assumes the Pages repo is checked out next to this one:
+#   ~/Projects/crc32-sitefiles      (this repo: sources)
+#   ~/Projects/crc32.github.io      (built site, served at crc32.com)
+# Override with:  SITE_REPO=/path/to/crc32.github.io ./deploy.sh
 
-# If a command fails then the deploy stops
+# Stop on the first failing command.
 set -e
 
-printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
+# Resolve paths relative to this script so it works from any directory.
+SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
+SITE_REPO="${SITE_REPO:-$SRC_DIR/../crc32.github.io}"
 
-# Remove current public folder
-rm -fR public
-mkdir public
+if [ ! -d "$SITE_REPO/.git" ]; then
+	echo "Pages repo not found at $SITE_REPO (set SITE_REPO)." >&2
+	exit 1
+fi
 
-# Build the project.
-hugo -t researcher # if using a theme, replace with `hugo -t <YOURTHEME>`
+printf "\033[0;32mBuilding site...\033[0m\n"
 
-cp -f /Users/crc32/Projects/crc32-sitefiles/public/about/index.html /Users/crc32/Projects/crc32-sitefiles/public/
-cp -R /Users/crc32/Projects/crc32-sitefiles/public/ /Users/crc32/Projects/crc32.github.io/
+# Fresh build into ./public (ignored by git).
+rm -rf "$SRC_DIR/public"
+hugo --source "$SRC_DIR" --minify --gc
 
-mv /Users/crc32/Projects/crc32.github.io/Crossman-CV.pdf /Users/crc32/Projects/crc32.github.io/crossman-cv.pdf
+# Copy the build over the Pages repo. Not a mirror: files that exist only in
+# the Pages repo are left alone.
+cp -R "$SRC_DIR/public/." "$SITE_REPO/"
 
-# Add changes to git.
-git add .
-
-# Commit changes.
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
 
-git commit -m "$msg"
+# Commit and push sources (only if something changed).
+git -C "$SRC_DIR" add -A
+git -C "$SRC_DIR" diff --cached --quiet || git -C "$SRC_DIR" commit -m "$msg"
+git -C "$SRC_DIR" push
 
-# Push source and build repos.
-git push
-
-# push website
-git -C /Users/crc32/Projects/crc32.github.io commit -a -m "update website"
-git -C /Users/crc32/Projects/crc32.github.io push
+# Commit and push the built site.
+printf "\033[0;32mPublishing to %s...\033[0m\n" "$SITE_REPO"
+git -C "$SITE_REPO" add -A
+git -C "$SITE_REPO" diff --cached --quiet || git -C "$SITE_REPO" commit -m "$msg"
+git -C "$SITE_REPO" push

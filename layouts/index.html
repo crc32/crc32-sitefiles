@@ -1,0 +1,117 @@
+{{- /*
+  Home page = the CV. Content comes from data/cv.yaml; the Markdown body of
+  content/_index.md (if any) is rendered under the summary.
+*/ -}}
+{{ define "main" }}
+{{- $cv := site.Data.cv }}
+{{- $p := $cv.profile }}
+
+<section class="hero">
+  {{- $img := resources.Get "images/avatar.png" }}
+  {{- $sm := $img.Fill "192x192 Center webp q85" }}
+  {{- $lg := $img.Fill "384x384 Center webp q85" }}
+  <img class="avatar" src="{{ $sm.RelPermalink }}" srcset="{{ $sm.RelPermalink }} 1x, {{ $lg.RelPermalink }} 2x"
+       width="192" height="192" alt="Portrait of {{ $p.name }}">
+  <div>
+    <h1>{{ $p.name }}</h1>
+    <p class="headline">{{ $p.headline }}</p>
+    <div class="summary">{{ $p.summary | markdownify }}</div>
+    {{ .Content }}
+    <ul class="links">
+      <li><a href="mailto:{{ $p.email }}">{{ $p.email }}</a></li>
+      {{- range site.Params.social }}
+      <li><a href="{{ .url }}" rel="me">{{ .name }}</a></li>
+      {{- end }}
+      <li class="print-hide"><a href="{{ site.Params.cvPDF }}">PDF résumé</a></li>
+    </ul>
+  </div>
+</section>
+
+{{/* ---------------------------------------------------------------- */}}
+<section id="experience" aria-labelledby="h-exp">
+  <h2 id="h-exp">Experience</h2>
+  {{- range $cv.experience }}
+  <article class="job">
+    <h3>{{ .org }}</h3>
+    {{- range .roles }}
+    {{- $start := partial "fmtdate.html" .start }}
+    {{- $end := partial "fmtdate.html" .end | default "Present" }}
+    <p class="role">
+      <span class="title">{{ .title }}</span>
+      <span class="meta">{{ with .location }}{{ . }} · {{ end }}<time>{{ $start }}</time> – {{ if .end }}<time>{{ $end }}</time>{{ else }}<span class="now">Present</span>{{ end }}</span>
+    </p>
+    {{- end }}
+    {{- with .bullets }}
+    <ul>
+      {{- range . }}<li>{{ . | markdownify }}</li>{{ end }}
+    </ul>
+    {{- end }}
+  </article>
+  {{- end }}
+</section>
+
+{{/* ---------------------------------------------------------------- */}}
+{{- /* Build a date-sorted copy of the publications list. */}}
+{{- $pubs := slice }}
+{{- range $cv.publications }}
+  {{- $pubs = $pubs | append (merge . (dict "_key" (partial "sortkey.html" .date))) }}
+{{- end }}
+{{- $pubs = sort $pubs "_key" "desc" }}
+{{- $groups := slice
+    (dict "kind" "article" "label" "Articles & Commentary")
+    (dict "kind" "brief" "label" "Briefs & Filings")
+    (dict "kind" "scholarship" "label" "Scholarship")
+    (dict "kind" "other" "label" "Other") }}
+
+<section id="writing" aria-labelledby="h-writing">
+  <h2 id="h-writing">Writing</h2>
+  {{- range $groups }}
+  {{- $items := where $pubs "kind" .kind }}
+  {{- if $items }}
+  <h3 class="group">{{ .label }} <span class="count">{{ len $items }}</span></h3>
+  <ol class="pubs" reversed>
+    {{- range $items }}
+    <li>
+      <time class="pubdate">{{ partial "fmtdate.html" .date }}</time>
+      <div>
+        <cite class="pubtitle">{{ if .url }}<a href="{{ .url }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</cite>
+        <span class="venue">{{ .venue | markdownify }}</span>
+        {{- with .authors }}
+        {{- $names := slice }}
+        {{- range . }}{{ if in . "Crossman" }}{{ $names = $names | append (printf "<strong>%s</strong>" .) }}{{ else }}{{ $names = $names | append . }}{{ end }}{{ end }}
+        <span class="authors">{{ delimit $names ", " | safeHTML }}</span>
+        {{- end }}
+        {{- if .extra_url }} <a class="extra" href="{{ .extra_url }}">{{ .extra_label | default "alt" }}</a>{{ end }}
+      </div>
+    </li>
+    {{- end }}
+  </ol>
+  {{- end }}
+  {{- end }}
+</section>
+
+{{/* ---------------------------------------------------------------- */}}
+<div class="two-col">
+  <section id="education" aria-labelledby="h-edu">
+    <h2 id="h-edu">Education</h2>
+    <ul class="plain">
+      {{- range $cv.education }}
+      <li>
+        <strong>{{ .school }}</strong><br>
+        {{ .degree | markdownify }}<br>
+        <span class="muted small">{{ with .location }}{{ . }} · {{ end }}{{ .date }}</span>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+
+  <section id="licenses" aria-labelledby="h-lic">
+    <h2 id="h-lic">Bar Admissions & Licenses</h2>
+    <ul class="plain">
+      {{- range $cv.licenses }}
+      <li>{{ .name }}{{ with .number }} <span class="muted">· No. {{ . }}</span>{{ end }}</li>
+      {{- end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

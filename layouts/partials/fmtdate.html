@@ -1,0 +1,19 @@
+{{- /*
+  Format a loosely-typed date from data/cv.yaml for display.
+  Accepts: 2010 (year), "2025-11" (month), "2025-11-03" (day), or a time.Time
+  (YAML may parse full dates into timestamps). Returns "" for empty input.
+*/ -}}
+{{- $out := "" -}}
+{{- if . -}}
+  {{- $s := substr (printf "%v" .) 0 10 -}}
+  {{- if eq (len $s) 4 -}}
+    {{- $out = $s -}}
+  {{- else if eq (len $s) 7 -}}
+    {{- $out = (time.AsTime (printf "%s-01" $s)).Format "Jan 2006" -}}
+  {{- else if eq (len $s) 10 -}}
+    {{- $out = (time.AsTime $s).Format "Jan 2, 2006" -}}
+  {{- else -}}
+    {{- $out = $s -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

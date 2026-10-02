@@ -1,0 +1,24 @@
+# Build the site on every push and PR so template or data/cv.yaml mistakes
+# are caught before deploy.sh publishes them.
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hugo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.140.2"
+          extended: true
+      # --panicOnWarning turns template warnings into failures.
+      - run: hugo --minify --panicOnWarning
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: public
+          retention-days: 7

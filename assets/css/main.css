@@ -57,6 +57,15 @@ a:hover { color: var(--accent); }
 
 h1, h2, h3 { font-family: var(--serif); line-height: 1.2; font-weight: 600; }
 
+/* Justified body text. Hyphenation (uses <html lang>) keeps word spacing
+   even, which matters most on narrow phone screens. Headings, nav, and
+   date/meta lines stay left-aligned. */
+.summary, .job li, .pubs li > div, .plain li, .prose p, .prose li {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
 /* --- Header ------------------------------------------------------------- */
 .site-header {
   position: sticky; top: 0; z-index: 5;

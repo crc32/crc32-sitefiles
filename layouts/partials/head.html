@@ -16,8 +16,8 @@
 <meta name="theme-color" content="#14130f" media="(prefers-color-scheme: dark)">
 
 {{- /* Avatar, resized once at build time and reused for social cards. */}}
-{{- $avatar := resources.Get "images/avatar.png" }}
-{{- $card := $avatar.Fill "600x600 Center" }}
+{{- $avatar := resources.Get "images/avatar.jpg" }}
+{{- $card := $avatar.Fill "600x600 Top jpg q85" }}
 
 {{- /* Open Graph / Twitter cards */}}
 <meta property="og:type" content="{{ cond .IsHome "profile" "website" }}">

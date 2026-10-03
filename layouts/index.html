@@ -7,9 +7,9 @@
 {{- $p := $cv.profile }}
 
 <section class="hero">
-  {{- $img := resources.Get "images/avatar.png" }}
-  {{- $sm := $img.Fill "192x192 Center webp q85" }}
-  {{- $lg := $img.Fill "384x384 Center webp q85" }}
+  {{- $img := resources.Get "images/avatar.jpg" }}
+  {{- $sm := $img.Fill "192x192 Top webp q85" }}
+  {{- $lg := $img.Fill "384x384 Top webp q85" }}
   <img class="avatar" src="{{ $sm.RelPermalink }}" srcset="{{ $sm.RelPermalink }} 1x, {{ $lg.RelPermalink }} 2x"
        width="192" height="192" alt="Portrait of {{ $p.name }}">
   <div>

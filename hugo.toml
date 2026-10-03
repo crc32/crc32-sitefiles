@@ -1,0 +1,67 @@
+# Site configuration for crc32.com.
+#
+# The site no longer depends on an external theme: every template lives in
+# layouts/, the stylesheet in assets/css/, and the CV itself in data/cv.yaml.
+# Edit data/cv.yaml to update experience, education, licenses, or writing.
+
+baseURL = "https://crc32.com/"
+languageCode = "en-us"
+title = "Colin Crossman"
+disableKinds = ["taxonomy", "term", "RSS"]
+enableRobotsTXT = true
+
+# Keep the old flat URLs (/contact/, /btc/) for top-level pages.
+[permalinks]
+  [permalinks.page]
+    "/" = "/:filename/"
+
+[params]
+  author = "Colin Crossman"
+  description = "Colin Crossman: Deputy Secretary of State of Wyoming, attorney, and Bitcoin Magazine contributor."
+  # Public PDF CV, served from static/.
+  cvPDF = "/crossman-cv.pdf"
+  # Profile links. Used in the header, contact page, and schema.org "sameAs".
+  [[params.social]]
+    name = "X / Twitter"
+    handle = "@arceris_btc"
+    url = "https://x.com/arceris_btc"
+  [[params.social]]
+    name = "LinkedIn"
+    handle = "in/crc32"
+    url = "https://www.linkedin.com/in/crc32/"
+  [[params.social]]
+    name = "GitHub"
+    handle = "crc32"
+    url = "https://github.com/crc32"
+  [[params.social]]
+    name = "Telegram"
+    handle = "@arceris_btc"
+    url = "https://t.me/arceris_btc"
+
+[menu]
+  [[menu.main]]
+    name = "CV"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Writing"
+    url = "/#writing"
+    weight = 2
+  [[menu.main]]
+    name = "Bitcoin"
+    url = "/btc/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
+
+[minify]
+  [minify.tdewolff.html]
+    keepWhitespace = false
+
+[module.hugoVersion]
+  min = "0.123.0"

@@ -1,0 +1,56 @@
+{{- /*
+  Document <head>: metadata, social cards, stylesheet, and (on the home page)
+  schema.org Person data so search engines can build a knowledge panel.
+*/ -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) }}
+{{- $desc := .Description | default site.Params.description }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ site.Params.author }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14130f" media="(prefers-color-scheme: dark)">
+
+{{- /* Avatar, resized once at build time and reused for social cards. */}}
+{{- $avatar := resources.Get "images/avatar.jpg" }}
+{{- $card := $avatar.Fill "600x600 Top jpg q85" }}
+
+{{- /* Open Graph / Twitter cards */}}
+<meta property="og:type" content="{{ cond .IsHome "profile" "website" }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ $card.Permalink }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@arceris_btc">
+
+{{- /* Stylesheet: minified and fingerprinted so browsers can cache it forever. */}}
+{{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+{{- if .IsHome }}
+{{- $cv := site.Data.cv }}
+{{- $sameAs := slice }}
+{{- range site.Params.social }}{{ $sameAs = $sameAs | append .url }}{{ end }}
+{{- $alumni := slice }}
+{{- range $cv.education }}{{ $alumni = $alumni | append (dict "@type" "CollegeOrUniversity" "name" .school) }}{{ end }}
+{{- $person := dict
+    "@context" "https://schema.org"
+    "@type" "Person"
+    "name" $cv.profile.name
+    "url" site.BaseURL
+    "image" $card.Permalink
+    "email" (printf "mailto:%s" $cv.profile.email)
+    "jobTitle" "Deputy Secretary of State"
+    "worksFor" (dict "@type" "GovernmentOrganization" "name" "Wyoming Secretary of State's Office" "url" "https://sos.wyo.gov/")
+    "address" (dict "@type" "PostalAddress" "addressLocality" "Cheyenne" "addressRegion" "WY" "addressCountry" "US")
+    "alumniOf" $alumni
+    "sameAs" $sameAs
+}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{- end }}

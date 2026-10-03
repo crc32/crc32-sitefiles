@@ -1,0 +1,29 @@
+# Build the site on every push and PR so template or data/cv.yaml mistakes
+# are caught before deploy.sh publishes them.
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  hugo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.140.2"
+          extended: true
+      # --panicOnWarning turns template warnings into failures.
+      - run: hugo --minify --panicOnWarning
+      # Render the PDF résumé the same way deploy.sh does, so a broken
+      # cv-pdf template or script fails here rather than at deploy time.
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run --with playwright playwright install --with-deps chromium
+      - run: uv run scripts/build_pdf.py --no-static
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: public
+          retention-days: 7

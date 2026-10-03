@@ -1,0 +1,366 @@
+# ---------------------------------------------------------------------------
+# Colin Crossman — CV data
+#
+# This file is the single source of truth for the CV rendered at crc32.com.
+# layouts/index.html reads it and renders each section in the order below.
+#
+# Conventions:
+#   - Dates are "YYYY-MM" (or "YYYY-MM-DD" for publications). Leave `end`
+#     empty for a current role; it renders as "Present".
+#   - Bullets are Markdown (links, *italics*, **bold** all work).
+#   - Newest entries go first in every list.
+# ---------------------------------------------------------------------------
+
+profile:
+  name: Colin Crossman
+  headline: Deputy Secretary of State, State of Wyoming
+  location: Cheyenne, Wyoming
+  email: colin@crc32.com
+  # Short bio shown under the name. Markdown allowed.
+  summary: >-
+    Attorney admitted in Wyoming and North Carolina and registered before the
+    USPTO. I run day-to-day operations at the Wyoming Secretary of State's
+    Office, write about Bitcoin and the law for *Bitcoin Magazine*, and build
+    tools in Python. Before public service I spent fifteen years as an operator
+    and general counsel for businesses in hospitality, e-commerce, and digital
+    infrastructure, after training in law and computational biology at Duke.
+
+# ---------------------------------------------------------------------------
+# Experience. One entry per organization; `roles` lists titles held there
+# (newest first). `bullets` describe the work.
+# ---------------------------------------------------------------------------
+experience:
+  - org: Secretary of State's Office, State of Wyoming
+    roles:
+      - title: Deputy Secretary of State
+        location: Cheyenne, WY
+        start: 2025-11
+        end:
+    bullets:
+      - Coordinate agency-wide operations and strategy across core regulatory and public-service functions (business entities/UCC, securities, notaries, public records, and related services).
+      - Lead legislative and policy development in partnership with the Governor's office, AG's office, and legislative committees; translate statutory changes into executable procedures and public-facing guidance.
+      - Oversee modernization initiatives (process redesign, data governance, cybersecurity alignment, vendor management/procurement), with measurable SLAs and dashboards for throughput, accuracy, and cost.
+      - Direct intergovernmental coordination on CTA/BOI issues with FinCEN and state partners; align state systems with evolving federal compliance while safeguarding state transparency and privacy standards.
+      - Support litigation/rulemaking posture, including amicus strategy on matters touching state regulatory authority and technology sovereignty.
+      - Build leadership capacity, mentoring managers, strengthening succession pipelines, and institutionalizing continuous-improvement practices.
+
+  - org: Secretary of State's Office, State of Wyoming
+    roles:
+      - title: Director of the Business Division
+        location: Cheyenne, WY
+        start: 2023-04
+        end: 2025-11
+    bullets:
+      - Led the division managing high-volume corporate filings (600K+/year), aligning operations with evolving data protection, KYC/AML, and public record transparency standards; coordinated the state-level response to FinCEN's Corporate Transparency Act Beneficial Ownership Information rule.
+      - Resolved cross-functional legal and operational issues through inter-agency coordination across legal, IT, and policy teams, improving legal accuracy and filing turnaround through deep knowledge of Wyoming corporate law.
+      - Advised on legislative reforms involving business and privacy law; shaped state-level data governance through statutory analysis and collaboration with counsel.
+      - Testified before the Wyoming Legislature on modernized digital business infrastructure, including reforms affecting privacy, data access, and automation; coordinated cross-agency input from legal, policy, and IT teams.
+      - Co-authored an amicus brief to the U.S. Supreme Court in *[Texas Top Cop Shop v. Garland](/wysos-lummis-sct-amicus-cta.pdf)* on state regulatory authority, technology sovereignty, and data control.
+      - Prepared and filed an amicus brief on behalf of the Wyoming Secretary of State in the *[Custodia Bank v. Federal Reserve](https://www.courtlistener.com/docket/68486662/010011075367/custodia-bank-v-federal-reserve-board-of-governors/)* appeal.
+      - Built Python automation to streamline corporate name checks, saving ~1 FTE/day of manual review and raising processing throughput by 7%.
+
+  - org: Distributed Hash
+    roles:
+      - title: Member & In-House Counsel
+        location: Wyoming
+        start: 2022-01
+        end: 2025-10
+    bullets:
+      - Served as general counsel for all legal matters, negotiating infrastructure and data-hosting contracts, including academic partnerships, with attention to privacy compliance, IP safeguards, and commercial viability.
+      - Directed design and launch of a digital infrastructure facility, overseeing regulatory approvals across jurisdictions and compliance with environmental, data-handling, and emerging crypto/tech law.
+      - Built internal compliance systems in Python/SQL for real-time monitoring and audit-ready records.
+      - Developed Python automation for remote infrastructure control, improving uptime and reducing manual risk.
+      - Published regulatory insights and whitepapers for investors and policymakers on energy use, infrastructure, and compute-intensive systems.
+      - Led regulatory engagement with local authorities to secure permits, and negotiated long-term infrastructure and utility service agreements.
+      - Oversaw multi-jurisdictional compliance, including zoning, data governance, and operational disclosures.
+
+  - org: Rhea Hospitality
+    roles:
+      - title: Principal and General Counsel
+        location: Cary, NC & Las Vegas, NV
+        start: 2007-11
+        end: 2023-04
+    bullets:
+      - Founded and led a multi-state hospitality group, overseeing legal, financial, and regulatory operations for a 135-person team and $7M+ in annual revenue; served as de facto general counsel for all contracts, compliance, and risk management.
+      - Drafted and negotiated commercial agreements across construction, vendor, and financing; provided in-house counsel across multiple jurisdictions.
+      - Structured and closed $17M+ in capital through private placements, public funding, and municipal partnerships; led all legal due diligence, regulatory compliance, and investor disclosures.
+      - Structured a Regulation A+ offering via a Delaware PBC, managing SEC disclosure and investor-protection requirements in preparation for Tier 2 qualification.
+      - Drafted and secured zoning and permitting approvals across jurisdictions.
+      - Designed and deployed internal legal/ops automation tools (Python, SQL, Flask), streamlining payroll and compliance workflows and saving $100K+ annually in operational overhead.
+
+  - org: PhD Posters, LLC
+    roles:
+      - title: Member and General Counsel
+        location: Durham, NC
+        start: 2005-11
+        end: 2023-04
+    bullets:
+      - Provided end-to-end legal leadership for a $1.2M+ multi-location e-commerce operation; oversaw commercial contracts, IP protection, and data compliance across digital and physical retail.
+      - Drafted consumer-facing terms, franchise agreements, and IP filings; managed brand protection strategy, including a federal trademark portfolio.
+      - Directed international legal and tax strategy for a Canadian subsidiary; managed outside counsel and cross-border compliance with consumer protection and data regulations.
+      - Led legal structuring for the transition to a national e-commerce model.
+      - Acted as general counsel for all business operations, handling employment matters, dispute resolution, and commercial contracts.
+
+  - org: Foundation for Individual Rights and Expression (FIRE)
+    roles:
+      - title: IT Consultant
+        location: Philadelphia, PA
+        start: 2020-07
+        end: 2023-04
+      - title: Senior Program Officer
+        location: Philadelphia, PA
+        start: 2015-05
+        end: 2016-01
+    bullets:
+      - Researched and classified university speech codes for constitutional compliance; worked with university administrators to bring policy language in line with First Amendment standards.
+      - Developed a Python-based tracking system to monitor outreach progress.
+      - Designed and deployed a 3CX-based internal VoIP system, modernizing office communications and reducing IT overhead.
+      - Led the organization-wide migration from LastPass to Okta, strengthening security posture and access control.
+      - Provided on-demand technical consulting across web infrastructure, cybersecurity, and internal systems.
+
+  - org: Triangle Apartment Association
+    roles:
+      - title: Government Affairs Director
+        location: Raleigh, NC
+        start: 2008-01
+        end: 2009-03
+    bullets:
+      - Developed and directed the association's governmental and regulatory policy objectives.
+      - Analyzed proposed legislation, rules, and case law and determined their impact on the membership; educated members on developments and coordinated member responses.
+      - Advocated with elected officials at the municipal, state, and federal levels, across parties, and coordinated with allied groups to increase impact.
+
+  - org: Duke University School of Law
+    roles:
+      - title: Faculty Fellow for IP Law
+        location: Durham, NC
+        start: 2005-01
+        end: 2006-08
+    bullets:
+      - Faculty fellow at the Center for the Study of Public Genomics.
+      - Researched the effects of university-owned software patents, focusing on the creation and dissemination of genomic data.
+      - Developed and taught an upper-level law course on Intellectual Property Licensing.
+      - Produced and presented academic research at conferences.
+
+# ---------------------------------------------------------------------------
+# Education (including the doctoral program, formerly "Academic Experience").
+# ---------------------------------------------------------------------------
+education:
+  - school: Duke University Medical Center
+    degree: Doctoral Candidate, Computational Biology and Bioinformatics
+    location: Durham, NC
+    date: 2006–2007
+  - school: Duke University Graduate School
+    degree: M.S., Biomedical Engineering
+    location: Durham, NC
+    date: 2004
+  - school: Duke University School of Law
+    degree: J.D., *cum laude*
+    location: Durham, NC
+    date: 2003
+  - school: Carnegie Mellon University
+    degree: B.S., Biology (Computational Biology); minors in Chemistry and Policy & Management
+    location: Pittsburgh, PA
+    date: 2000
+
+# ---------------------------------------------------------------------------
+# Bar admissions and licenses.
+# ---------------------------------------------------------------------------
+licenses:
+  - name: Wyoming State Bar
+    number: "8-7039"
+  - name: North Carolina State Bar
+    number: "31468"
+  - name: U.S. Patent and Trademark Office (registered patent attorney)
+    number: "52782"
+  - name: U.S. Court of Appeals for the Tenth Circuit
+  - name: Supreme Court of the United States
+
+# ---------------------------------------------------------------------------
+# Writing. `kind` controls grouping on the page:
+#   article     — Bitcoin Magazine and other commentary
+#   brief       — court filings and agency comments
+#   scholarship — peer-reviewed / law review work
+#   other       — anything else (e.g., patents)
+# `authors` is optional; omit it for solo work. Use "Colin Crossman" (or the
+# citation form) inside the list and it will be bolded automatically.
+# ---------------------------------------------------------------------------
+publications:
+  - kind: article
+    title: "The End of the Closed-Source Era Is at Hand: Obscurity Was Never Security"
+    venue: Bitcoin Magazine
+    date: 2026-08-06
+    url: https://bitcoinmagazine.com/technical/the-end-of-the-closed-source-era-is-at-hand-obscurity-was-never-security
+  - kind: article
+    title: "When Bitcoin Walks Into Your Office: A Field Guide for Wyoming Generalists"
+    venue: Wyoming Lawyer (Wyoming State Bar), Vol. 49, No. 4, pp. 30–33
+    date: 2026-08
+    url: https://www.wyomingbar.org/august-2026-wyoming-lawyer/
+    extra_url: https://digitaleditions.walsworth.com/view/wyoming-state-bar-/wyoming-lawyer/august-2026
+    extra_label: digital edition
+  - kind: article
+    title: "When Quantum Computers Come for Your Bitcoin: What Classical Property Law Says Happens Next"
+    venue: Bitcoin Magazine
+    date: 2026-04-17
+    url: https://bitcoinmagazine.com/legal/when-quantum-computers-come-for-your-bitcoin-what-classical-property-law-says-happens-next
+  - kind: article
+    title: "Tenth Circuit Hands Fed a Win: Custodia Denied Master Account in Blow to Crypto Sovereignty, Dissent Brings the Heat"
+    venue: Bitcoin Magazine
+    date: 2025-10-31
+    url: https://bitcoinmagazine.com/legal/tenth-circuit-hands-fed-a-win-custodia-denied-master-account-in-blow-to-crypto-sovereignty-dissent-brings-the-heat
+  - kind: article
+    title: "The Trolls Are Coming: Defending Bitcoin Mining from Patent Trolls"
+    venue: Bitcoin Magazine
+    date: 2025-06-18
+    url: https://bitcoinmagazine.com/legal/the-trolls-are-coming-defending-bitcoin-mining-from-patent-trolls
+  - kind: article
+    title: "Nebraska's New Mining Rules: Infrastructure Safeguard or Soft Ban in Disguise?"
+    venue: Bitcoin Magazine
+    date: 2025-05-19
+    url: https://bitcoinmagazine.com/legal/nebraskas-new-mining-rules-infrastructure-safeguard-or-soft-ban-in-disguise
+  - kind: brief
+    title: "Brief of Amici Curiae Senator Cynthia Lummis and Wyoming Secretary of State Chuck Gray, *Texas Top Cop Shop v. Garland*"
+    venue: Supreme Court of the United States
+    date: 2025-01-10
+    authors: [Christopher Land, Colin Crossman, Jesse Naiman]
+    url: /wysos-lummis-sct-amicus-cta.pdf
+  - kind: article
+    title: "Wyoming Introduces Bitcoin Strategic Reserve Bill"
+    venue: Bitcoin Magazine
+    date: 2025-01-17
+    url: https://bitcoinmagazine.com/politics/wyoming-introduces-bitcoin-strategic-reserve-bill
+  - kind: article
+    title: "Debanked: The Financial Suppression of Bitcoin Businesses Must End"
+    venue: Bitcoin Magazine
+    date: 2024-12-02
+    url: https://bitcoinmagazine.com/politics/debanked-the-financial-suppression-of-bitcoin-businesses-must-end
+  - kind: article
+    title: "Tornado Cash Loses Motion to Dismiss"
+    venue: Bitcoin Magazine
+    date: 2024-09-27
+    url: https://bitcoinmagazine.com/legal/tornado-cash-loses-motion-to-dismiss
+  - kind: article
+    title: "The BITCOIN Act of 2024"
+    venue: Bitcoin Magazine
+    date: 2024-08-02
+    url: https://bitcoinmagazine.com/legal/the-bitcoin-act-of-2024
+  - kind: article
+    title: "The Federal Reserve, Custodia Bank, and the Battle for Sovereignty: A Review of the Amicus Briefs in the Custodia Case"
+    venue: Bitcoin Magazine
+    date: 2024-07-05
+    url: https://bitcoinmagazine.com/legal/the-federal-reserve-custodia-bank-and-the-battle-for-constitutional-sovereignty
+  - kind: brief
+    title: "Brief of Amicus Curiae Wyoming Secretary of State, *Custodia Bank v. Federal Reserve Board of Governors*"
+    venue: U.S. Court of Appeals for the Tenth Circuit
+    date: 2024-07-03
+    url: https://www.courtlistener.com/docket/68486662/010011075367/custodia-bank-v-federal-reserve-board-of-governors/
+  - kind: article
+    title: "Supreme Court Decision Overturns *Chevron*: A Victory for Judicial Authority and Bitcoin"
+    venue: Bitcoin Magazine
+    date: 2024-06-28
+    url: https://bitcoinmagazine.com/legal/supreme-court-decision-overturns-chevron-a-victory-for-judicial-authority-and-bitcoin
+  - kind: article
+    title: "NRA & Cantero in the Supreme Court: Implications for Operation Choke Point 2.0 and Custodia Bank"
+    venue: Bitcoin Magazine
+    date: 2024-05-31
+    url: https://bitcoinmagazine.com/legal/nra-cantero-cases-implications-for-operation-choke-point-2-0-and-custodia-bank
+  - kind: article
+    title: "Final Agreement on EIA Emergency Survey Released"
+    venue: Bitcoin Magazine
+    date: 2024-03-01
+    url: https://bitcoinmagazine.com/legal/final-agreement-on-eia-emergency-survey-released
+  - kind: article
+    title: "EIA Emergency Survey Preliminary Injunction Hearing Canceled"
+    venue: Bitcoin Magazine
+    date: 2024-02-29
+    url: https://bitcoinmagazine.com/legal/eia-emergency-survey-preliminary-injuction-hearing-canceled-yesterday
+  - kind: article
+    title: "Riot Platforms and Texas Bitcoin Council Seek Injunction Against Survey"
+    venue: Bitcoin Magazine
+    date: 2024-02-23
+    url: https://bitcoinmagazine.com/legal/miners-vs-the-eia-hearing-in-waco-texas
+  - kind: article
+    title: "Resisting the EIA: One Possible Playbook"
+    venue: Bitcoin Magazine
+    date: 2024-02-13
+    url: https://bitcoinmagazine.com/legal/resisting-the-eia-one-possible-playbook
+  - kind: article
+    title: "High Fees vs. \"High Fees\": How I Learned to Stop Worrying and Love the Mempool"
+    venue: Bitcoin Magazine
+    date: 2024-01-05
+    url: https://bitcoinmagazine.com/markets/high-fees-vs-high-fees-how-i-learned-to-stop-worrying-and-love-the-mempool
+  - kind: article
+    title: "Beyond the kWh: Factors That Bitcoin Miners Need to Consider"
+    venue: Bitcoin Magazine
+    date: 2022-07-15
+    authors: [Robert Warren, Colin Crossman]
+    url: https://bitcoinmagazine.com/markets/factors-bitcoin-miners-need-to-consider
+  - kind: article
+    title: "West Virginia v. EPA: Good News for Bitcoin, Beyond the Obvious"
+    venue: Bitcoin Magazine
+    date: 2022-07-01
+    url: https://bitcoinmagazine.com/legal/west-virginia-epa-supreme-court-bitcoin
+  - kind: article
+    title: "What Bitcoiners Need to Know About Jury Nullification in a Hostile Legal System"
+    venue: Bitcoin Magazine
+    date: 2022-04-03
+    url: https://bitcoinmagazine.com/culture/future-jury-nullification-for-bitcoin-users
+  - kind: article
+    title: "Economically Incentivized Innovation Sets Bitcoin Apart: Unitary Money"
+    venue: Bitcoin Magazine
+    date: 2022-03-31
+    url: https://bitcoinmagazine.com/business/innovation-sets-bitcoin-apart
+  - kind: article
+    title: "Bitcoin for Small Businesses: Front Line Options"
+    venue: Bitcoin Magazine
+    date: 2022-03-16
+    authors: [Colin Crossman, Mark Maraia, Heidi Porter]
+    url: https://bitcoinmagazine.com/business/bitcoin-for-small-businesses-options
+  - kind: article
+    title: "Bitcoin and the Smallest Businesses: Cantillon Effects and Why They Need Bitcoin"
+    venue: Bitcoin Magazine
+    date: 2022-01-29
+    authors: [Heidi Porter, Mark Maraia, Colin Crossman]
+    url: https://bitcoinmagazine.com/business/why-small-businesses-need-bitcoin
+  - kind: article
+    title: "Bitcoin and Business: What Is Your Bitcoin Strategy?"
+    venue: Bitcoin Magazine
+    date: 2022-01-10
+    authors: [Heidi Porter, Mark Maraia, Colin Crossman]
+    url: https://bitcoinmagazine.com/business/bitcoin-and-businesses-a-bitcoin-strategy
+  - kind: article
+    title: "Bitcoin Community Projects Communicate the Message of Freedom"
+    venue: Bitcoin Magazine
+    date: 2021-10-31
+    authors: [Rick Poach, Colin Crossman]
+    url: https://bitcoinmagazine.com/culture/bitcoin-community-projects-freedom
+  - kind: other
+    title: "U.S. Patent No. 9,364,012 (attorney of record)"
+    venue: U.S. Patent and Trademark Office
+    date: 2016-06-14
+  - kind: scholarship
+    title: "Metastasizing Patent Claims on BRCA1"
+    venue: Genomics
+    date: 2010
+    authors: [Kepler, T., "Crossman, C.", "Cook-Deegan, R."]
+    url: https://doi.org/10.1016/j.ygeno.2010.03.003
+  - kind: scholarship
+    title: "Pathways Across the Valley of Death: Novel Intellectual Property Strategies for Accelerated Drug Discovery"
+    venue: Yale Journal of Health Policy, Law, and Ethics, Vol. 8(1)
+    date: 2008
+    authors: [Reichman, J.H., "Rai, A.", "Uhlir, P.", "Crossman, C."]
+  - kind: scholarship
+    title: "Arming Our Enemies: How Parallel Imports Could Increase Anti-microbial Resistance"
+    venue: North Carolina Journal of International Law & Commercial Regulation, Vol. 31(4), 823–845
+    date: 2006
+  - kind: scholarship
+    title: "A Brief History of BioPerl"
+    venue: Duke Law Faculty Scholarship
+    date: 2005-12-02
+    authors: [Colin Crossman, Arti Rai]
+    url: https://scholarship.law.duke.edu/faculty_scholarship/3686
+  - kind: brief
+    title: "Red Hat's Comments to the Joint FTC/DOJ Hearings on Competition and Intellectual Property Law"
+    venue: Federal Trade Commission / Department of Justice
+    date: 2002-03-20
+    authors: [Webbink, Crossman, Griffin, Silverstein]
+    url: /020320webbink.pdf

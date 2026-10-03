@@ -1,0 +1,10 @@
+{{/* Generic content page (Contact, Bitcoin Resources, etc.). */}}
+{{ define "main" }}
+<article class="prose">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ if not .Lastmod.IsZero }}
+  <p class="muted small">Last reviewed {{ .Lastmod.Format "January 2, 2006" }}</p>
+  {{ end }}
+</article>
+{{ end }}

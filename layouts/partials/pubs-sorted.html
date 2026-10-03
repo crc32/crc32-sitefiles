@@ -1,0 +1,9 @@
+{{- /*
+  Return data/cv.yaml publications sorted newest-first, each with an added
+  "_key" field used for sorting. Shared by the web CV and the PDF CV.
+*/ -}}
+{{- $pubs := slice }}
+{{- range site.Data.cv.publications }}
+  {{- $pubs = $pubs | append (merge . (dict "_key" (partial "sortkey.html" .date))) }}
+{{- end }}
+{{- return (sort $pubs "_key" "desc") -}}

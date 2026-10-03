@@ -1,1 +1,5 @@
 .DS_Store
+# Hugo build output and caches
+/public/
+/resources/_gen/
+.hugo_build.lock

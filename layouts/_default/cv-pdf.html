@@ -23,6 +23,9 @@
   <ul class="contact">
     <li>{{ $p.location }}</li>
     <li><a href="mailto:{{ $p.email }}">{{ $p.email }}</a></li>
+    {{- with $p.phone }}
+    <li><a href="tel:{{ . }}">{{ $p.phone_display | default . }}</a></li>
+    {{- end }}
     <li><a href="{{ site.BaseURL }}">{{ strings.TrimSuffix "/" (strings.TrimPrefix "https://" site.BaseURL) }}</a></li>
     {{- range where site.Params.social "name" "LinkedIn" }}
     <li><a href="{{ .url }}">linkedin.com/{{ .handle }}</a></li>

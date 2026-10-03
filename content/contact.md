@@ -5,7 +5,7 @@ description = "How to reach Colin Crossman: email, phone, mail, social, and PGP.
 
 <dl>
   <dt>Email</dt><dd><a href="mailto:colin@crc32.com">colin@crc32.com</a></dd>
-  <dt>Phone</dt><dd><a href="tel:+19193361337">+1 (919) 336-1337</a></dd>
+  <dt>Phone</dt><dd><a href="tel:+19194523333">+1 (919) 452-3333</a></dd>
   <dt>Mail</dt><dd>1903 South Greeley Hwy #322<br>Cheyenne, WY 82007</dd>
 </dl>
 

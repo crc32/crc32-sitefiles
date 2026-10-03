@@ -16,6 +16,10 @@ profile:
   headline: Deputy Secretary of State, State of Wyoming
   location: Cheyenne, Wyoming
   email: colin@crc32.com
+  # Phone: `phone` is E.164 (used for tel: links and schema.org);
+  # `phone_display` is how it's printed.
+  phone: "+19194523333"
+  phone_display: "+1 (919) 452-3333"
   # Short bio shown under the name. Markdown allowed.
   summary: >-
     Attorney admitted in Wyoming and North Carolina and registered before the
